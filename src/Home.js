@@ -1,6 +1,6 @@
 import App from './App.css';
+import home from './home.css';
 import Home from './Home';
-import Navigation from './Navigation';
 import group from './assets/group.png';
 import google from './assets/google.jpg';
 import microsoft from './assets/microsoft.jpg';
@@ -20,19 +20,26 @@ import twitter from './assets/twitter.png';
 import P from './assets/P.png';
 import tictok from './assets/tictok.png';
 import youtube from './assets/youtube.png';
+import navicon from './assets/navicon.svg';
+import hamburger from './assets/hamburger.png';
 
 const HomeComponent = () => {
     return ( 
         <div className="homepage">
             <div className='welcome'>
+            <div className="nav">
+            <img src={navicon} className="navicon" />
+            <img src={hamburger} className="hamburger" />
+            </div>
+            <div className='banner'>
                 <img src={group} alt="grouppic" />
                 <div className='header'>
                     <p className="subTitle">WELCOME</p>
                     <p className="welcome-header">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit nemo hic quos, ab, dolor aperiam nobis cum est eos error ipsum, voluptate culpa nesciunt delectus iste?</p>
                     <p className='welcome-description'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit nemo hic quos, ab, dolor aperiam nobis cum est eos error ipsum, voluptate culpa nesciunt delectus iste?</p>
                     <div className='buttom'>Explore</div>
+            </div>
                 </div>
-                
             </div>
             <div className='partners'>
                 <p className='partner'>PARTNERS</p>
