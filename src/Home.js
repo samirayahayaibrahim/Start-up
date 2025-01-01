@@ -1,6 +1,6 @@
 import App from './App.css';
 import home from './home.css';
-import Home from './Home';
+import home from './home';
 import group from './assets/group.png';
 import google from './assets/google.jpg';
 import microsoft from './assets/microsoft.jpg';
@@ -23,50 +23,55 @@ import youtube from './assets/youtube.png';
 import navicon from './assets/navicon.svg';
 import hamburger from './assets/hamburger.png';
 
-const HomeComponent = () => {
+const homeComponent = () => {
+    const welcomeHeader = "Lorem ipsum, dolor sit amet consectetur";
+    const welcomeDescription = "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit nemo hic quos, ab, dolor aperiam nobis cum est eos error ipsum, voluptate culpa nesciunt delectus iste?";
+    const partnerDescription = "Lorem ipsum, dolor sit amet consectetur adipisicing elit.";
+    const group2Header = "Lorem ipsum dolor sit amet consectetur";
+    const group2Description = "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit nemo hic quos, ab, dolor aperiam nobis cum est eos error ipsum, voluptate culpa nesciunt delectus iste?";
+
     return ( 
         <div className="homepage">
             <div className='welcome'>
-            <div className="nav">
-            <img src={navicon} className="navicon" />
-            <img src={hamburger} className="hamburger" />
-            </div>
-            <div className='banner'>
-                <img src={group} alt="grouppic" />
-                <div className='header'>
-                    <p className="subTitle">WELCOME</p>
-                    <p className="welcome-header">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit nemo hic quos, ab, dolor aperiam nobis cum est eos error ipsum, voluptate culpa nesciunt delectus iste?</p>
-                    <p className='welcome-description'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit nemo hic quos, ab, dolor aperiam nobis cum est eos error ipsum, voluptate culpa nesciunt delectus iste?</p>
-                    <div className='buttom'>Explore</div>
-            </div>
+                <div className="nav">
+                    <img src={navicon} className="navicon" />
+                    <img src={hamburger} className="hamburger" />
+                </div>
+                <div className='banner'>
+                    <img src={group} className="group1" />
+                    <div className='header'>
+                        <p className="subTitle">WELCOME</p>
+                        <p className="welcome-header">{ welcomeHeader }</p>
+                        <p className='welcome-description'>{ welcomeDescription }</p>
+                        <button className='explore'>Explore</button>
+                    </div>
                 </div>
             </div>
             <div className='partners'>
                 <p className='partner'>PARTNERS</p>
                 <h4>Lorem Ipsum Dolor</h4>
-                <p className='partner-description'>Lorem ipsum, dolor sit amet consectetur
-                adipisicing elit.</p>
+                <p className='partner-description'>{partnerDescription}</p>
             </div>
             <div className='media'>
-                <img src={google}/>
-                <img src={microsoft}/>
-                <img src={airbnb}/>
-                <img src={facebook}/>
-                <img src={spotify}/>
+                <img src={google} className='media-pic'/>
+                <img src={microsoft} className='media-pic'/>
+                <img src={airbnb} className='media-pic'/>
+                <img src={facebook} className='media-pic'/>
+                <img src={spotify} className='media-pic'/><br/>
+                <button className='learn'>Learn More</button>
             </div>
-            <button>Learn More</button>
             <div className='group'>
                 <div>
-                <img src={Group2}/>
-                <p className='group2-header'>Lorem ipsum dolor sit amet consectetur </p>
-                <p className='group-description'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit nemo hic quos, ab, dolor aperiam nobis cum est eos error ipsum, voluptate culpa nesciunt delectus iste?</p>
-                <button>Learn More</button>
+                <img src={Group2} className="group2-pic"/>
+                <p className='group2-header'> {group2Header}</p>
+                <p className='group2-description'>{group2Description}</p>
+                <button className='more'>Learn More</button>
                 </div>
                 <div>
-                <img src={working} alt="working-pic" />
-                <p className='group2-header'>Lorem ipsum dolor sit amet consectetur </p>
-                <p className='group-description'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit nemo hic quos, ab, dolor aperiam nobis cum est eos error ipsum, voluptate culpa nesciunt delectus iste?</p>
-                <button>Learn More</button>
+                <img src={working} className="working-pic" />
+                <p className='group2-header'> {group2Header}</p>
+                <p className='group-description'>{group2Description}</p>
+                <button className='more'>Learn More</button>
                 </div>
             </div>
             <div className='Team'>
@@ -78,42 +83,41 @@ const HomeComponent = () => {
                 </p>
                 <div className='cards'>
                     <div className='person'>
-                    <img src={person1} alt="working" />
-                    <p className='title'>Peg Legge<span>CEO</span></p>
+                    <img src={person1} className="work" />
+                    <p className='nametag'>Peg LeggeL<br/><span className='title'>CEO</span></p>
                     </div>
                     <div className='person'>
-                    <img src={person2} alt="working" />
-                    <p className='title'>Richard Guerra<span>CTO</span></p>
+                    <img src={person2} className="work" />
+                    <p className='nametag'>Richard Guerra<br/><span className='title'>CTO</span></p>
                     </div>
                     <div className='person'>
-                    <img src={person3} alt="working" />
-                    <p className='title'>Alexandra Stolz<span>DESIGNER</span></p>
+                    <img src={person3} className="work" />
+                    <p className='nametag'>Alexandra Stolz<br/><span className='title'>DESIGNER</span></p>
                     </div>
                     <div className='person'>
-                    <img src={person4} alt="working" />
-                    <p className='title'>Janet Bray<span>DEVELOPER</span></p>
+                    <img src={person4} className="work" />
+                    <p className='nametag'>Janet Bray<br/><span className='title'>DEVELOPER</span></p>
                     </div>
-                    <button>Learn More</button>
+                    <button className='learn'>Learn More</button>
+                </div>
                 </div>
                 <div className='footer'>
                 <div className='socials'>
-                    <img src={fblite} alt="working" />
-                    <img src={insta} alt="working" />
-                    <img src={twitter} alt="working" />
-                    <img src={P} alt="working" />
-                    <img src={tictok} alt="working" />
-                    <img src={whatsapp} alt="working" />
-                    <img src={youtube} alt="working" />
+                    <img src={fblite} className="social-icon" />
+                    <img src={insta} className="social-icon" />
+                    <img src={twitter} className="social-icon" />
+                    <img src={P} className="social-icon" />
+                    <img src={tictok} className="social-icon" />
+                    <img src={whatsapp} className="social-icon" />
+                    <img src={youtube} className="social-icon" />
                 </div>
                 <div className='copyright'>
                 © Start, 2022. All rights reserved.
                 </div>
-                </div>
             </div>
         </div>
-    
     );
 }
 
-export default HomeComponent;
+export default homeComponent;
 

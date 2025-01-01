@@ -6,6 +6,130 @@
     padding-top: 10px;
     padding-bottom: 10px;
 }
+.nav{
+    display: flex;
+}
 .hamburger{
     margin-left: auto;
 }
+.navicon{
+    height: 30px;
+}
+.group1{
+    padding-top: 40px;
+    width: 100%;
+}
+.subTitle{
+    font-weight: 500;
+    font-size: 15px;
+}
+.welcome-header{
+    font-weight: 500;
+    font-size: 18px;
+}
+.explore{
+    background-color: white;
+    padding: 5px 20px 5px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border-color: white;
+    border-style: none;
+    margin-top: 20px;
+}
+.partners{
+    background-color: white;
+    text-align: center;
+}
+.partner{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    color: #74C69D;
+}
+.media{
+    background-color: white;
+    padding: 20px 50px 20px 50px;
+    justify-items: center;
+}
+.media-pic{
+    padding-left: 20px;
+    padding-right: 50px;
+}
+.learn{
+    background-color:black;
+    padding: 5px 20px 5px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border-color:black;
+    border-style: none;
+    color: white;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+.group{
+    padding: 20px;
+    background-color: white;
+    align-content: center;
+}
+.group2-pic{
+    width: 100%;
+    padding-bottom: 20px;
+}
+.group2-header{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+}
+.more{
+    background-color:black;
+    padding: 5px 20px 5px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border-color:black;
+    border-style: none;
+    color: white;
+    margin-top: 20px;
+}
+.working-pic{
+    width: 100%;
+    padding-top: 40px;
+}
+.Team{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h4{
+    color: #74C69D;
+}
+.team-subheader{
+    font-size: 16px;
+    text-align: center;
+}
+.person{
+    border: 1px solid black;
+    margin-top: 20px;
+    padding: 25px;
+    border-radius: 5px;
+    box-shadow: -2px 0 5px ;
+}
+.nametag{
+    font-size: 20px;
+    font-weight: 500;
+}
+.title{
+    font-size: 14px;
+}
+.footer{
+    background-color: #74C69D;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    color: white;
+}
+.social-icon{
+    padding-right: 10px;
+}
+
