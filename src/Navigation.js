@@ -1,7 +1,15 @@
 import './App.css';
 import './homestyle.css';
+import navicon from './assets/navicon.svg';
+import hamburger from './assets/hamburger.png';
 const NavigationComponent= () => {
-    return ( 
+    return (
+        <div className='navlink'>
+            <div className="nav">
+            <img src={navicon} className="navicon" />
+            <img src={hamburger} className="hamburger" />
+            </div>
+            
         <div className="links">
             <ul>
             <li><a href="home">Home</a></li>
@@ -10,6 +18,8 @@ const NavigationComponent= () => {
             <li><a href="contact">Contact</a></li>
             </ul>
         </div>
+        </div>
+            
     );
 }
 

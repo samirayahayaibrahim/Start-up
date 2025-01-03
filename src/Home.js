@@ -20,8 +20,6 @@ import twitter from './assets/twitter.png';
 import P from './assets/P.png';
 import tictok from './assets/tictok.png';
 import youtube from './assets/youtube.png';
-import navicon from './assets/navicon.svg';
-import hamburger from './assets/hamburger.png';
 import Navigation from './Navigation';
 
 const homeComponent = () => {
@@ -35,8 +33,6 @@ const homeComponent = () => {
         <div className="homepage">
             <div className='welcome'>
                 <div className="nav">
-                    <img src={navicon} className="navicon" />
-                    <img src={hamburger} className="hamburger" />
                     <Navigation/>
                 </div>
                 <div className='banner'>
