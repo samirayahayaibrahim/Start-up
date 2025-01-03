@@ -108,6 +108,17 @@ h4{
     font-size: 16px;
     text-align: center;
 }
+
+    .work{
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+    }
+    .cards{
+            display: grid;
+            grid-template-columns: repeat(1, 1fr); 
+            gap: 10px; }
+    
 .person{
     border: 1px solid black;
     margin-top: 20px;
@@ -142,7 +153,7 @@ h4{
 
 @media screen and (min-width:550px){
     .welcome{
-        padding: 20px 80px 70px 80px;
+        padding: 20px 80px 70px 30px;
     }
     .navicon{
         height: 60px;
@@ -170,7 +181,7 @@ h4{
     
     .navlink{
         display: flex;
-        gap: 580px;
+        gap: 400px;
     }
     
     .banner{
@@ -211,9 +222,17 @@ h4{
         padding-right: 80px;
 
     }
-    .cards{
-        display: flex;
+    .work{
+        width: 100%;
+        padding: 10px;
+        text-align: center;
     }
+    .cards{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 10px;
+    }
+    
     .person{
         margin-left: 40px;
     }
@@ -235,6 +254,16 @@ h4{
     }
     .working-pic{
         padding-top: 30px;
+    }
+    .work{
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+    }
+    .cards{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr); 
+        gap: 10px;
     }
     .paragraph{
         padding: 50px;

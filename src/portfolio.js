@@ -1,4 +1,6 @@
 import Home from './home';
+import App from './App.css';
+import portfoliostyle from './portfoliostyle.css';
 import Navigation from './Navigation';
 import portpic1 from './assets/port-pic 1.jpg';
 import portpic2 from './assets/port-pic 2.jpg';
@@ -14,21 +16,23 @@ const portfolioComponent = () => {
         <div className='nav'>
             <Navigation />
         </div>
-        <div className='header'>
+        <div className='port'>
+        <div className='header-portfolio'>
             <h3>WORKS</h3>
             <p className='subheader'>Portfolio</p>
             <p className='portfolio-description'>Lorem ipsum, dolor sit amet consectetur
             adipisicing elit.</p>
             </div>
             <div className='portfolio-pic'>
-            <img src={portpic1} className="portpic1" />
-            <img src={portpic2} className="portpic2" />
-            <img src={portpic3} className="portpic3" />
-            <img src={portpic4} className="portpic4" />
-            <img src={portpic5} className="portpic5" />
-            <img src={portpic6} className="portpic6" />
-            <img src={portpic7} className="portpic7" />
-            <img src={portpic8} className="portpic8" />
+            <img src={portpic1} className="portpic" />
+            <img src={portpic2} className="portpic" />
+            <img src={portpic3} className="portpic" />
+            <img src={portpic4} className="portpic" />
+            <img src={portpic5} className="portpic" />
+            <img src={portpic6} className="portpic" />
+            <img src={portpic7} className="portpic" />
+            <img src={portpic8} className="portpic " />
+            </div>
             </div>
         </div>
     );
