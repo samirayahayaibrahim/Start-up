@@ -1,11 +1,12 @@
 import './App.css';
-import home from './home.css';
-import home from './home';
+import homestyle from './homestyle.css';
+import Home from './home';
+import Navigation from './Navigation';
 
 function App() {
   return (
     <div className="App">
-      <home />
+      <Home />
     </div>
   );
 }

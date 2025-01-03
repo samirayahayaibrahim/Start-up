@@ -1,5 +1,5 @@
 .welcome{
-    padding: 20px 20px 20px 20px;
+    padding: 20px 20px 50px 20px;
     color: white;
 }
 .subTitle{
@@ -44,6 +44,7 @@
     padding-top: 20px;
     padding-bottom: 10px;
     color: #74C69D;
+    font-weight: 500;
 }
 .media{
     background-color: white;
@@ -54,7 +55,7 @@
     padding-left: 20px;
     padding-right: 50px;
 }
-.learn{
+.learn,.learnmore{
     background-color:black;
     padding: 5px 20px 5px 20px;
     font-size: 16px;
@@ -101,7 +102,7 @@
     align-items: center;
 }
 h4{
-    color: #74C69D;
+    font-size: 16px;
 }
 .team-subheader{
     font-size: 16px;
@@ -132,4 +133,117 @@ h4{
 .social-icon{
     padding-right: 10px;
 }
+.links{
+    margin-left: auto;
+    display: none;
+    gap: 30px;
+    
+}
+
+@media screen and (min-width:550px){
+    .welcome{
+        padding: 20px 80px 70px 80px;
+    }
+    .navicon{
+        height: 60px;
+    }
+    .hamburger{
+        display: none;
+    }
+    .links {
+        margin-left: auto;
+        display: block;
+        color: white;
+        margin-top: 20px;
+        font-size: 20px;
+        text-decoration: none;
+    }
+    ul {
+        list-style: none;
+        display: flex;
+        gap: 30px;
+        color: white;
+    }
+    a{
+        color: white;
+        text-decoration: none;
+    }
+    .home,.services{
+        gap: 30px;
+        color: white;
+        text-decoration: none;
+    }
+    
+    .banner{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .subTitle{
+        font-size: 43px;
+        padding-top: 20px;
+    }
+    .welcome-header{
+        font-size: 40px;
+        padding-top: 20px;
+    }
+    .welcome-description{
+        font-size: 20px;
+        padding-right: 190px;
+    }
+    .partner{
+        font-size: 20px;
+    }
+    h4{
+        font-size: 20px;
+        padding-bottom: 5px;
+    }
+    .learn{
+        transform: translateX(30px);
+    }
+    .group2{
+        display: flex;
+        flex-direction: row;
+    }
+    .group2-header{
+        padding-top: 150px;
+    }
+    .paragraph{
+        padding-left: 80px;
+        padding-right: 80px;
+
+    }
+    .cards{
+        display: flex;
+    }
+    .person{
+        margin-left: 40px;
+    }
+}
+@media screen and (min-width:900px) {
+    .learn{
+        transform: translateX(550px);
+    }
+    .group{
+        padding-left: 90px;
+        padding-right: 90px;
+    }
+    .group2-header{
+        padding-top: 200px;
+    }
+    .working-pic,.group2-pic{
+        width: 70%;
+        padding-top: 90px;
+    }
+    .working-pic{
+        padding-top: 30px;
+    }
+    .paragraph{
+        padding: 50px;
+    }
+    .socials{
+        display: flex;
+        gap: 550px;
+    }
+}
+
 

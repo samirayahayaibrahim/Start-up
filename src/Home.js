@@ -1,5 +1,5 @@
 import App from './App.css';
-import home from './home.css';
+import homestyle from './homestyle.css';
 import home from './home';
 import group from './assets/group.png';
 import google from './assets/google.jpg';
@@ -22,10 +22,11 @@ import tictok from './assets/tictok.png';
 import youtube from './assets/youtube.png';
 import navicon from './assets/navicon.svg';
 import hamburger from './assets/hamburger.png';
+import Navigation from './Navigation';
 
 const homeComponent = () => {
     const welcomeHeader = "Lorem ipsum, dolor sit amet consectetur";
-    const welcomeDescription = "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit nemo hic quos, ab, dolor aperiam nobis cum est eos error ipsum, voluptate culpa nesciunt delectus iste?";
+    const welcomeDescription = "Lorem ipsum, dolor sit  amet consectetur adipisicing elit. Suscipit nemo hic quos, ab, dolor aperiam nobis cum est eos error ipsum, voluptate culpa nesciunt delectus iste?";
     const partnerDescription = "Lorem ipsum, dolor sit amet consectetur adipisicing elit.";
     const group2Header = "Lorem ipsum dolor sit amet consectetur";
     const group2Description = "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit nemo hic quos, ab, dolor aperiam nobis cum est eos error ipsum, voluptate culpa nesciunt delectus iste?";
@@ -36,6 +37,7 @@ const homeComponent = () => {
                 <div className="nav">
                     <img src={navicon} className="navicon" />
                     <img src={hamburger} className="hamburger" />
+                    <Navigation/>
                 </div>
                 <div className='banner'>
                     <img src={group} className="group1" />
@@ -57,21 +59,25 @@ const homeComponent = () => {
                 <img src={microsoft} className='media-pic'/>
                 <img src={airbnb} className='media-pic'/>
                 <img src={facebook} className='media-pic'/>
-                <img src={spotify} className='media-pic'/><br/>
+                <img src={spotify} className='media-pic'/>
                 <button className='learn'>Learn More</button>
             </div>
             <div className='group'>
-                <div>
+                <div className='group2'>
                 <img src={Group2} className="group2-pic"/>
+                <div className='paragraph'>
                 <p className='group2-header'> {group2Header}</p>
                 <p className='group2-description'>{group2Description}</p>
                 <button className='more'>Learn More</button>
                 </div>
-                <div>
+                </div>
+                <div className='group2'>
                 <img src={working} className="working-pic" />
+                <div className='paragraph'>
                 <p className='group2-header'> {group2Header}</p>
-                <p className='group-description'>{group2Description}</p>
+                <p className='group2-description'>{group2Description}</p>
                 <button className='more'>Learn More</button>
+                </div>
                 </div>
             </div>
             <div className='Team'>
@@ -98,21 +104,22 @@ const homeComponent = () => {
                     <img src={person4} className="work" />
                     <p className='nametag'>Janet Bray<br/><span className='title'>DEVELOPER</span></p>
                     </div>
-                    <button className='learn'>Learn More</button>
                 </div>
+                <button className='learnmore'>Learn More</button>
                 </div>
                 <div className='footer'>
+                
                 <div className='socials'>
-                    <img src={fblite} className="social-icon" />
-                    <img src={insta} className="social-icon" />
-                    <img src={twitter} className="social-icon" />
-                    <img src={P} className="social-icon" />
-                    <img src={tictok} className="social-icon" />
-                    <img src={whatsapp} className="social-icon" />
-                    <img src={youtube} className="social-icon" />
-                </div>
-                <div className='copyright'>
-                © Start, 2022. All rights reserved.
+                    <div className='social'>
+                        <img src={fblite} className="social-icon" />
+                        <img src={insta} className="social-icon" />
+                        <img src={twitter} className="social-icon" />
+                        <img src={P} className="social-icon" />
+                        <img src={tictok} className="social-icon" />
+                        <img src={whatsapp} className="social-icon" />
+                        <img src={youtube} className="social-icon" />
+                    </div>
+                <div className='copyright'>© Start, 2022. All rights reserved.</div>
                 </div>
             </div>
         </div>
