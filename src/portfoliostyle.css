@@ -2,7 +2,7 @@
     padding:20px 20px 20px 20px;
 }
 .port{
-    padding:20px 90px 20px 90px;
+    padding:20px 40px 20px 40px;
     background-color: white;
 }
 h3{
@@ -17,26 +17,28 @@ h3{
     font-size: 25px;
 }
 .portfolio-description{
-    font-size: 20px;
+    font-size: 10px;
 }
-.portpic{
-    width: 100%;
+.portcard{
     padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
 }
 .portfolio-pic{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr); 
-        gap: 10px; 
+        display: flex;
+        flex-direction: column;
 }
 
+
+
 @media screen and (min-width:500px){
-    .portfolio-pic{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr); 
-        gap: 10px; 
+.portfolio-pic{
+    display: flex;       
 }
-.portpic{
-    width: 100%;
-    padding: 10px;
+.portcard{
+    display: flex;
+    flex-direction: row;
 }
 }

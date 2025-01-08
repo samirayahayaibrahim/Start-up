@@ -1,15 +1,31 @@
 import './App.css';
-import homestyle from './homestyle.css';
 import Home from './home';
 import Navigation from './Navigation';
 import Portfolio from './Portfolio';
+import Hamburger from "./Hamburger";
+import Footer from "./Footer";
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom/cjs/react-router-dom.min';
+
 
 function App() {
   return (
-    <div className="App">
-      <Home />
-      <Portfolio />
-    </div>
+    <Router>
+      <div className="App">
+        <Navigation/>
+        <div className='content'>
+          <Switch>
+            <Route exact path="/Home">
+              <Home />
+            </Route>
+            <Route exact path="/Portfolio">
+              <Portfolio />
+            </Route>
+              <Hamburger />
+          </Switch>
+        </div>
+        <Footer/>
+      </div>
+    </Router>
   );
 }
 

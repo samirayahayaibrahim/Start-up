@@ -14,7 +14,6 @@ const portfolioComponent = () => {
     return ( 
         <div className='portifoliopage'>
         <div className='nav'>
-            <Navigation />
         </div>
         <div className='port'>
         <div className='header-portfolio'>
@@ -24,14 +23,23 @@ const portfolioComponent = () => {
             adipisicing elit.</p>
             </div>
             <div className='portfolio-pic'>
-            <img src={portpic1} className="portpic" />
-            <img src={portpic2} className="portpic" />
-            <img src={portpic3} className="portpic" />
-            <img src={portpic4} className="portpic" />
-            <img src={portpic5} className="portpic" />
-            <img src={portpic6} className="portpic" />
-            <img src={portpic7} className="portpic" />
-            <img src={portpic8} className="portpic " />
+                <div className='portcard'>
+                    <img src={portpic1} className="portpic" />
+                    <img src={portpic2} className="portpic" />
+                </div>
+                <div className='portcard'>
+                    <img src={portpic3} className="portpic" />
+                    <img src={portpic4} className="portpic" />
+                </div>
+                <div className='portcard'>
+                    <img src={portpic5} className="portpic" />
+                    <img src={portpic6} className="portpic" />
+                </div>
+                <div className='portcard'>
+                    <img src={portpic7} className="portpic" />
+                    <img src={portpic8} className="portpic " />
+                    </div>
+            
             </div>
             </div>
         </div>

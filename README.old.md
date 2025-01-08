@@ -1,1 +1,139 @@
 # Start-up
+
+**Description**This project is a webpage designed with HTML/CSS and JAVASCRIPT,featuring a responsive layout and modern design elements.
+
+
+##Table of contents                        
+
+1.[project name](Sart-up)
+
+2.[table content]
+
+3.[introduction]
+
+4.[live demo]
+
+5.[features]
+
+6.[technologies used]
+
+7.[setup and installation]
+
+8.[usage]
+
+9.[license]
+
+10.[author(s)]
+
+
+##Overview
+
+The project is build using REACT providing a visually appealing and responsible layout for a web page.it include pages such as:
+
+-HOME and PORTFOLIO.
+
+## HOME
+
+Section include
+
+-Navigation section(which contain logo and hamburger menu).
+
+-banner section which contain sub-headers, paragraph and images.
+
+-partner and media section which contain header,images and paragraphs.
+
+-groups,socials and cards posts section also contain sub-header,images and paragraph.
+
+-Footer(socials) section which is the last section contain header,icons,links and paragraph.
+
+## PORTFOLIO
+section include
+
+-Navigation section(which contain logo and hamburger menu).
+
+
+
+-Footer(socials) section which is the last section contain header,icons,links and paragraph.
+
+##Live server
+
+-checkout the Live Demo of the project[live demo](https://hotel-website-eqpk.onrender.com)
+
+##Technologies used##
+
+-REACT
+
+##feature
+
+
+-**Responsive Design**the layout adjust to various screen size using media quaries.
+
+-**custom properties**:utilize css variables for theme colors,making easy to adjust the overall colour scheme.
+
+-**modern Typography**:used "urbanist" and "gilda display" font for modern and clean look.
+
+-**flexbox layout**:ensure element are properly align and spaced,creating a balanced design.
+
+
+##setup instruction##
+
+1.**clone repository**:
+'''bash
+     git clone
+     
+2.**Navigate to the project directory**:
+   cd start-up.
+   
+3.**open the react file**:
+  "react.js".
+
+  
+##usage##
+-the css.file("style.css")to style the react file.
+
+-to make any adjustment,edit the style.css
+
+-the react("react.js)provide reponsive website.
+
+
+##key REACT Component structure##
+
+here are some basic key structure of the  structure
+
+-1st section which contain the header and navigation section
+
+-2nd section Banner(which contain header and background images).
+
+-3rd section is the section about the website(why choose us section)
+
+-4th section is the page Special offer section(which contain header,images and paragraphs.)
+
+-5th section is Reviews and Recent posts section also contain sub-header,images,and paragraph.
+
+-6th section is Footer section which is the last section contain header,images and paragraph.
+
+
+##license##     
+
+the project is licensed under MIT LICENSE
+
+
+##Author##
+
+**Samira Yahaya Ibrahim**
+
+##Email
+
+**samirayahayaibraheem@gmail.com**
+
+##Github##
+
+**https://github.com/samirayahayaibrahim** 
+
+##Render
+**https://hotel-website-eqpk.onrender.com**
+
+##Loom
+**https://www.loom.com/share/47e34de4470342809fc0f2245da5a1ff?sid=49adb93e-de42-4136-bb14-2ae6deab7bc9**
+
+###Am having issues with my loom,my face can't be recorded,Mal Ali ask me to record it without the face,sorry for inconvenience.

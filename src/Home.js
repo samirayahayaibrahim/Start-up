@@ -13,14 +13,6 @@ import person1 from './assets/person 1.jpg';
 import person2 from './assets/person 2.jpg';
 import person3 from './assets/person 3.jpg';
 import person4 from './assets/person 4.jpg';
-import whatsapp from './assets/whatsapp.svg';
-import fblite from './assets/fblite.svg';
-import insta from './assets/insta.svg';
-import twitter from './assets/twitter.png';
-import P from './assets/P.png';
-import tictok from './assets/tictok.png';
-import youtube from './assets/youtube.png';
-import Navigation from './Navigation';
 
 const homeComponent = () => {
     const welcomeHeader = "Lorem ipsum, dolor sit amet consectetur";
@@ -32,9 +24,6 @@ const homeComponent = () => {
     return ( 
         <div className="homepage">
             <div className='welcome'>
-                <div className="nav">
-                    <Navigation/>
-                </div>
                 <div className='banner'>
                     <img src={group} className="group1" />
                     <div className='header'>
@@ -60,20 +49,20 @@ const homeComponent = () => {
             </div>
             <div className='group'>
                 <div className='group2'>
-                <img src={Group2} className="group2-pic"/>
-                <div className='paragraph'>
-                <p className='group2-header'> {group2Header}</p>
-                <p className='group2-description'>{group2Description}</p>
-                <button className='more'>Learn More</button>
-                </div>
+                    <img src={Group2} className="group2-pic"/>
+                    <div className='paragraph'>
+                        <p className='group2-header'> {group2Header}</p>
+                        <p className='group2-description'>{group2Description}</p>
+                        <button className='more'>Learn More</button>
+                    </div>
                 </div>
                 <div className='group2'>
-                <img src={working} className="working-pic" />
-                <div className='paragraph'>
-                <p className='group2-header'> {group2Header}</p>
-                <p className='group2-description'>{group2Description}</p>
-                <button className='more'>Learn More</button>
-                </div>
+                    <img src={working} className="working-pic" />
+                    <div className='paragraph'>
+                        <p className='group2-header'> {group2Header}</p>
+                        <p className='group2-description'>{group2Description}</p>
+                        <button className='more'>Learn More</button>
+                    </div>
                 </div>
             </div>
             <div className='Team'>
@@ -85,39 +74,25 @@ const homeComponent = () => {
                 </p>
                 <div className='cards'>
                     <div className='person'>
-                    <img src={person1} className="work" />
-                    <p className='nametag'>Peg LeggeL<br/><span className='title'>CEO</span></p>
+                        <img src={person1} className="work" />
+                        <p className='nametag'>Peg LeggeL<br/><span className='title'>CEO</span></p>
                     </div>
                     <div className='person'>
-                    <img src={person2} className="work" />
-                    <p className='nametag'>Richard Guerra<br/><span className='title'>CTO</span></p>
+                        <img src={person2} className="work" />
+                        <p className='nametag'>Richard Guerra<br/><span className='title'>CTO</span></p>
                     </div>
                     <div className='person'>
-                    <img src={person3} className="work" />
-                    <p className='nametag'>Alexandra Stolz<br/><span className='title'>DESIGNER</span></p>
+                        <img src={person3} className="work" />
+                        <p className='nametag'>Alexandra Stolz<br/><span className='title'>DESIGNER</span></p>
                     </div>
                     <div className='person'>
-                    <img src={person4} className="work" />
-                    <p className='nametag'>Janet Bray<br/><span className='title'>DEVELOPER</span></p>
+                        <img src={person4} className="work" />
+                        <p className='nametag'>Janet Bray<br/><span className='title'>DEVELOPER</span></p>
                     </div>
                 </div>
                 <button className='learnmore'>Learn More</button>
                 </div>
-                <div className='footer'>
                 
-                <div className='socials'>
-                    <div className='social'>
-                        <img src={fblite} className="social-icon" />
-                        <img src={insta} className="social-icon" />
-                        <img src={twitter} className="social-icon" />
-                        <img src={P} className="social-icon" />
-                        <img src={tictok} className="social-icon" />
-                        <img src={whatsapp} className="social-icon" />
-                        <img src={youtube} className="social-icon" />
-                    </div>
-                <div className='copyright'>© Start, 2022. All rights reserved.</div>
-                </div>
-            </div>
         </div>
     );
 }
