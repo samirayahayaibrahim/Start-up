@@ -1,6 +1,5 @@
 import App from './App.css';
 import homestyle from './homestyle.css';
-import home from './home';
 import group from './assets/group.png';
 import google from './assets/google.jpg';
 import microsoft from './assets/microsoft.jpg';
@@ -25,7 +24,7 @@ const homeComponent = () => {
         <div className="homepage">
             <div className='welcome'>
                 <div className='banner'>
-                    <img src={group} className="group1" />
+                    <img src={group} className="group1" alt=''/>
                     <div className='header'>
                         <p className="subTitle">WELCOME</p>
                         <p className="welcome-header">{ welcomeHeader }</p>
@@ -40,11 +39,11 @@ const homeComponent = () => {
                 <p className='partner-description'>{partnerDescription}</p>
             </div>
             <div className='media'>
-                <img src={google} className='media-pic'/>
-                <img src={microsoft} className='media-pic'/>
-                <img src={airbnb} className='media-pic'/>
-                <img src={facebook} className='media-pic'/>
-                <img src={spotify} className='media-pic'/>
+                <img src={google} className='media-pic' alt=''/>
+                <img src={microsoft} className='media-pic' alt=''/>
+                <img src={airbnb} className='media-pic' alt=''/>
+                <img src={facebook} className='media-pic' alt=''/>
+                <img src={spotify} className='media-pic' alt=''/>
                 <button className='learn'>Learn More</button>
             </div>
             <div className='group'>
@@ -56,8 +55,8 @@ const homeComponent = () => {
                         <button className='more'>Learn More</button>
                     </div>
                 </div>
-                <div className='group2'>
-                    <img src={working} className="working-pic" />
+                <div className='group3'>
+                    <img src={working} className="working-pic" alt=''/>
                     <div className='paragraph'>
                         <p className='group2-header'> {group2Header}</p>
                         <p className='group2-description'>{group2Description}</p>
@@ -74,19 +73,19 @@ const homeComponent = () => {
                 </p>
                 <div className='cards'>
                     <div className='person'>
-                        <img src={person1} className="work" />
+                        <img src={person1} className="work" alt=''/>
                         <p className='nametag'>Peg LeggeL<br/><span className='title'>CEO</span></p>
                     </div>
                     <div className='person'>
-                        <img src={person2} className="work" />
+                        <img src={person2} className="work" alt=''/>
                         <p className='nametag'>Richard Guerra<br/><span className='title'>CTO</span></p>
                     </div>
                     <div className='person'>
-                        <img src={person3} className="work" />
+                        <img src={person3} className="work" alt=''/>
                         <p className='nametag'>Alexandra Stolz<br/><span className='title'>DESIGNER</span></p>
                     </div>
                     <div className='person'>
-                        <img src={person4} className="work" />
+                        <img src={person4} className="work" alt=''/>
                         <p className='nametag'>Janet Bray<br/><span className='title'>DEVELOPER</span></p>
                     </div>
                 </div>

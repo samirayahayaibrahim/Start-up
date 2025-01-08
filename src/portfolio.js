@@ -24,20 +24,20 @@ const portfolioComponent = () => {
             </div>
             <div className='portfolio-pic'>
                 <div className='portcard'>
-                    <img src={portpic1} className="portpic" />
-                    <img src={portpic2} className="portpic" />
+                    <img src={portpic1} className="portpic" alt=''/>
+                    <img src={portpic2} className="portpic" alt=''/>
                 </div>
                 <div className='portcard'>
-                    <img src={portpic3} className="portpic" />
+                    <img src={portpic3} className="portpic" alt=''/>
                     <img src={portpic4} className="portpic" />
                 </div>
                 <div className='portcard'>
-                    <img src={portpic5} className="portpic" />
-                    <img src={portpic6} className="portpic" />
+                    <img src={portpic5} className="portpic" alt=''/>
+                    <img src={portpic6} className="portpic" alt=''/>
                 </div>
                 <div className='portcard'>
-                    <img src={portpic7} className="portpic" />
-                    <img src={portpic8} className="portpic " />
+                    <img src={portpic7} className="portpic" alt=''/>
+                    <img src={portpic8} className="portpic " alt=''/>
                     </div>
             
             </div>

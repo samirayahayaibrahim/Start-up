@@ -13,13 +13,13 @@ const Footer = () => {
                 
                 <div className='socials'>
                     <div className='social'>
-                        <img src={fblite} className="social-icon" />
-                        <img src={insta} className="social-icon" />
-                        <img src={twitter} className="social-icon" />
-                        <img src={P} className="social-icon" />
-                        <img src={tictok} className="social-icon" />
-                        <img src={whatsapp} className="social-icon" />
-                        <img src={youtube} className="social-icon" />
+                        <img src={fblite} className="social-icon" alt=''/>
+                        <img src={insta} className="social-icon" alt=''/>
+                        <img src={twitter} className="social-icon" alt=''/>
+                        <img src={P} className="social-icon" alt=''/>
+                        <img src={tictok} className="social-icon" alt=''/>
+                        <img src={whatsapp} className="social-icon" alt=''/>
+                        <img src={youtube} className="social-icon" alt=''/>
                     </div>
                 <div className='copyright'>© Start, 2022. All rights reserved.</div>
                 </div>

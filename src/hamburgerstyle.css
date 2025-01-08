@@ -60,12 +60,12 @@
     flex-direction: column;
     position: absolute;
     top: 0;
-    left: 0;
+    left: 0px;
     width: 50%;
     background-color:#74C69D;
     padding: 20px 10px;
     align-items: center;
-    margin-left: 230px;
+    margin-left: 150px;
   }
   
   .nav-menu.open {

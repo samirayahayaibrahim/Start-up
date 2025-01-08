@@ -9,7 +9,7 @@ const NavigationComponent= () => {
     return (
         <div className='navlink'>
             <div className="nav">
-            <img src={navicon} className="navicon" />
+            <img src={navicon} className="navicon" alt=''/>
             </div>
             
         <div className="links">
