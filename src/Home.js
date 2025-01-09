@@ -12,6 +12,7 @@ import person1 from './assets/person 1.jpg';
 import person2 from './assets/person 2.jpg';
 import person3 from './assets/person 3.jpg';
 import person4 from './assets/person 4.jpg';
+import { motion } from 'framer-motion';
 
 const homeComponent = () => {
     const welcomeHeader = "Lorem ipsum, dolor sit amet consectetur";
@@ -22,7 +23,10 @@ const homeComponent = () => {
 
     return ( 
         <div className="homepage">
-            <div className='welcome'>
+            <motion.div className='welcome'
+            initial={{ scale: 0 }}
+            animate={{ scale: 1 }}
+            transition={{ duration: 3 }}>
                 <div className='banner'>
                     <img src={group} className="group1" alt=''/>
                     <div className='header'>
@@ -32,7 +36,7 @@ const homeComponent = () => {
                         <button className='explore'>Explore</button>
                     </div>
                 </div>
-            </div>
+            </motion.div>
             <div className='partners'>
                 <p className='partner'>PARTNERS</p>
                 <h4>Lorem Ipsum Dolor</h4>
@@ -65,8 +69,8 @@ const homeComponent = () => {
                 </div>
             </div>
             <div className='Team'>
-                <h4>TEAM</h4>
-                <h3>Our Talents</h3>
+                <h4 className='teamheader'>TEAM</h4>
+                <h3 className='teamdescription'>Our Talents</h3>
                 <p className='team-subheader'>
                 Lorem ipsum, dolor sit amet consectetur
                 adipisicing elit.
@@ -89,7 +93,7 @@ const homeComponent = () => {
                         <p className='nametag'>Janet Bray<br/><span className='title'>DEVELOPER</span></p>
                     </div>
                 </div>
-                <button className='learnmore'>Learn More</button>
+                <button className='learnmore'>View Team</button>
                 </div>
                 
         </div>

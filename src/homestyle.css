@@ -5,6 +5,10 @@
 .subTitle{
     padding-top: 10px;
     padding-bottom: 10px;
+    font-family: "Work Sans";
+    font-weight: 500;
+    font-size: 16px;
+    font-family: 'Work Sans';
 }
 .nav{
     display: flex;
@@ -13,19 +17,20 @@
     margin-left: auto;
 }
 .navicon{
-    height: 30px;
+    height: 40px;
 }
 .group1{
     padding-top: 40px;
     width: 100%;
 }
-.subTitle{
-    font-weight: 500;
-    font-size: 15px;
-}
+
 .welcome-header{
     font-weight: 500;
     font-size: 18px;
+    font-family: 'Crimso Text';
+}
+.welcome-description{
+    font-family: 'Work Sans';
 }
 .explore{
     background-color: white;
@@ -35,6 +40,8 @@
     border-color: white;
     border-style: none;
     margin-top: 20px;
+    font-family: 'Work Sans';
+
 }
 .partners{
     background-color: white;
@@ -45,6 +52,10 @@
     padding-bottom: 10px;
     color: #74C69D;
     font-weight: 500;
+    font-family: 'Work Sans';
+}
+.partner-description{
+    font-family: 'Work Sans';
 }
 .media{
     background-color: white;
@@ -66,6 +77,7 @@
     margin-top: 20px;
     margin-left: 50px;
     margin-bottom: 20px;
+    font-family: 'Work Sans';
 }
 .group{
     padding: 20px;
@@ -80,6 +92,10 @@
     font-weight: 500;
     font-size: 20px;
     line-height: 30px;
+    font-family: 'Crimson Text';
+}
+.group2-description{
+    font-family: 'Work Sans';
 }
 .more{
     background-color:black;
@@ -102,11 +118,20 @@
     align-items: center;
 }
 h4{
-    font-size: 16px;
+    font-size: 20px;
+    font-family: 'Crimson Text';
+}
+.teamheader{
+    font-size: 20px;
+    font-family: 'Crimson Text';
+    color: #74C69D;
 }
 .team-subheader{
     font-size: 16px;
     text-align: center;
+}
+.teamdescription{
+    color: black;
 }
 
     .work{
@@ -114,10 +139,10 @@ h4{
         padding: 10px;
         text-align: center;
     }
-    .cards{
-            display: grid;
-            grid-template-columns: repeat(1, 1fr); 
-            gap: 10px; }
+.cards{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr); 
+        gap: 10px; }
     
 .person{
     border: 1px solid black;
@@ -129,9 +154,11 @@ h4{
 .nametag{
     font-size: 20px;
     font-weight: 500;
+    font-family: 'Crimson Text';
 }
 .title{
     font-size: 14px;
+    font-family: 'Work Sans';
 }
 .footer{
     background-color: #74C69D;
@@ -148,15 +175,23 @@ h4{
     margin-left: auto;
     display: none;
     gap: 30px;
+    font-family: 'Work Sans';
     
+}
+.copyright{
+    font-family: 'Work Sans';
 }
 
 @media screen and (min-width:550px){
     .welcome{
-        padding: 20px 80px 70px 30px;
+        padding: 20px 50px 0px 50px;
+    }
+    .navlink{
+        padding: 0px 50px 0px 50px;
     }
     .navicon{
-        height: 60px;
+        height: 50px;
+        padding-top: 15px;
     }
     .hamburger{
         display: none;
@@ -164,7 +199,7 @@ h4{
     .links {
         display: block;
         color: white;
-        margin-top: 20px;
+        margin-top: 30px;
         font-size: 20px;
         text-decoration: none;
     }
@@ -189,22 +224,25 @@ h4{
         flex-direction: row-reverse;
     }
     .subTitle{
-        font-size: 43px;
+        font-size: 20px;
         padding-top: 20px;
+        
     }
     .welcome-header{
         font-size: 40px;
         padding-top: 20px;
+        
     }
     .welcome-description{
         font-size: 20px;
         padding-right: 190px;
+
     }
     .partner{
         font-size: 20px;
     }
     h4{
-        font-size: 20px;
+        font-size: 24px;
         padding-bottom: 5px;
     }
     .learn{
@@ -220,6 +258,9 @@ h4{
     }
     .group2-header{
         padding-top: 150px;
+        font-weight: 500;
+        font-size: 25px;
+        font-family: 'Crimson Text';
     }
     .paragraph{
         padding-left: 80px;

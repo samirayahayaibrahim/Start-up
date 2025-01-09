@@ -32,7 +32,7 @@ The project is build using REACT providing a visually appealing and responsible 
 
 -HOME and PORTFOLIO.
 
-## HOME
+##HOME
 
 Section include
 
@@ -46,12 +46,14 @@ Section include
 
 -Footer(socials) section which is the last section contain header,icons,links and paragraph.
 
-## PORTFOLIO
+##PORTFOLIO
 section include
 
 -Navigation section(which contain logo and hamburger menu).
 
+-Header section(contain header and paragraph for portfolio).
 
+-Portfolio-pic section(contain div with classes and images)
 
 -Footer(socials) section which is the last section contain header,icons,links and paragraph.
 
@@ -70,7 +72,7 @@ section include
 
 -**custom properties**:utilize css variables for theme colors,making easy to adjust the overall colour scheme.
 
--**modern Typography**:used "urbanist" and "gilda display" font for modern and clean look.
+-**modern Typography**:used "Work Sans" and "Crimso Text" font for modern and clean look.
 
 -**flexbox layout**:ensure element are properly align and spaced,creating a balanced design.
 
@@ -99,19 +101,13 @@ section include
 ##key REACT Component structure##
 
 here are some basic key structure of the  structure
+-1st section which contain Navigation
 
--1st section which contain the header and navigation section
+-2nd section which contain homepage
 
--2nd section Banner(which contain header and background images).
+-3rd section portfolio.
 
--3rd section is the section about the website(why choose us section)
-
--4th section is the page Special offer section(which contain header,images and paragraphs.)
-
--5th section is Reviews and Recent posts section also contain sub-header,images,and paragraph.
-
--6th section is Footer section which is the last section contain header,images and paragraph.
-
+-4th section which contain footer
 
 ##license##     
 
