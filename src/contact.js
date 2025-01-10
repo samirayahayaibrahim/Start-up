@@ -18,22 +18,22 @@ const useContact = () => {
     };
     const handleSubmit = (e) => {
         e.preventDefault();
-        alert(`Username: ${formValues.username}, email: ${formValues.email}, message: ${formValues.Message}`);
+        alert(`Username: ${formValues.username}, email: ${formValues.email}, message: ${formValues.message}`);
     };
     return ( 
         <div className="contact">
             <h2>Contact Us</h2>
-            <p>Lorem ipsum, dolor sit amet consectetur
+            <p className="contactdescription">Lorem ipsum, dolor sit amet consectetur
             adipisicing elit.</p>
             
             <div className="form">
                 <div className='fill'>
                 <p>Name</p>
-                <input type="text" name="username" value={formValues.username} onChange={handleChange} placeholder="Username" className='text'/>
+                <input type="text" name="username" value={formValues.username} onChange={handleChange} placeholder="" className='text'/>
                 <p>Email</p>
-                <input type="email" name="email" value={formValues.email} onChange={handleChange} placeholder="Email" className='text'/>
+                <input type="email" name="email" value={formValues.email} onChange={handleChange} placeholder="" className='text'/>
                 <p>Message</p>
-                <input type="text" name="message" value={formValues.Message} onChange={handleChange} placeholder="message" className='message'/><br/>
+                <input type="text" name="message" value={formValues.message} onChange={handleChange} placeholder="" className='message'/><br/>
                 <button type="submit" className='submit'>Submit</button>
                 </div>
                 <img src={map} className='map'/>

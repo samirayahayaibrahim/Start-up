@@ -1,13 +1,57 @@
 .contact{
     background-color: white;
-    width: 100%;
     justify-items: center;
+    height: 600px;
 }
 .form{
     display: flex;
+    flex-direction: column-reverse;
+    padding-bottom: 50px;
+}
+.contactdescription{
+    text-align: center;
+}
+h2{
+    margin-top: 30px;
 }
 .fill{
-    padding: 50px 40px 0px 60px;
+    padding: 50px 40px 50px 60px;
+}
+.map{
+    width: 70%;
+    padding-bottom: -30px;
+    padding-top: 20px;
+    transform: translateX(50px);
+    z-index: 3;
+}
+.text{
+    width: 270px;
+    height: 30px;
+    background-color: rgb(231, 230, 230);
+    border-color: rgb(203, 200, 200);
+}
+.message{
+    width: 270px;
+    height: 55px;
+    background-color: rgb(231, 230, 230);
+    border-color: rgb(203, 200, 200);
+}
+.submit{
+    width: 270px;
+    height: 32px;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+}
+
+@media screen and (min-width:600px) {
+
+.form{
+    flex-direction: row;
+    padding: 0px 0px 40px 0px;
+}
+.fill{
+    padding: 50px 20px 0px 60px;
 }
 .map{
     width: 40%;
@@ -17,10 +61,14 @@
 .text{
     width: 450px;
     height: 30px;
+    border-radius: 5px;
 }
 .message{
     width: 450px;
     height: 55px;
+    background-color: rgb(231, 230, 230);
+    border-color: rgb(203, 200, 200);
+    border-radius: 5px;
 }
 .submit{
     width: 450px;
@@ -28,4 +76,6 @@
     background-color: black;
     color: white;
     margin-top: 20px;
+    border-radius: 5px;
+}
 }
