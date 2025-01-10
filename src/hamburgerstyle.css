@@ -1,11 +1,9 @@
-/* Reset default styling */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
   
-  /* Hamburger icon styling */
   .hamburger {
     display: flex;
     flex-direction: column;

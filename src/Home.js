@@ -26,7 +26,8 @@ const homeComponent = () => {
             <motion.div className='welcome'
             initial={{ scale: 0 }}
             animate={{ scale: 1 }}
-            transition={{ duration: 3 }}>
+            transition={{ duration: 3 }}
+            >
                 <div className='banner'>
                     <img src={group} className="group1" alt=''/>
                     <div className='header'>
@@ -76,22 +77,34 @@ const homeComponent = () => {
                 adipisicing elit.
                 </p>
                 <div className='cards'>
-                    <div className='person'>
+                    <motion.div className='person'
+                    initial={{ scale: 0 }}
+                    animate={{ scale: 1 }}
+                    transition={{ duration: 3 }}>
                         <img src={person1} className="work" alt=''/>
                         <p className='nametag'>Peg LeggeL<br/><span className='title'>CEO</span></p>
-                    </div>
-                    <div className='person'>
+                    </motion.div>
+                    <motion.div className='person'
+                    initial={{ scale: 0 }}
+                    animate={{ scale: 1 }}
+                    transition={{ duration: 3 }}>
                         <img src={person2} className="work" alt=''/>
                         <p className='nametag'>Richard Guerra<br/><span className='title'>CTO</span></p>
-                    </div>
-                    <div className='person'>
+                    </motion.div>
+                    <motion.div className='person'
+                    initial={{ scale: 0 }}
+                    animate={{ scale: 1 }}
+                    transition={{ duration: 3 }}>
                         <img src={person3} className="work" alt=''/>
                         <p className='nametag'>Alexandra Stolz<br/><span className='title'>DESIGNER</span></p>
-                    </div>
-                    <div className='person'>
+                    </motion.div>
+                    <motion.div className='person'
+                    initial={{ scale: 0 }}
+                    animate={{ scale: 1 }}
+                    transition={{ duration: 3 }}>
                         <img src={person4} className="work" alt=''/>
                         <p className='nametag'>Janet Bray<br/><span className='title'>DEVELOPER</span></p>
-                    </div>
+                    </motion.div>
                 </div>
                 <button className='learnmore'>View Team</button>
                 </div>
