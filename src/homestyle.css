@@ -1,0 +1,338 @@
+.welcome{
+    padding: 20px 20px 50px 20px;
+    color: white;
+}
+.subTitle{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: "Work Sans";
+    font-weight: 500;
+    font-size: 16px;
+    font-family: 'Work Sans';
+}
+.nav{
+    display: flex;
+}
+.hamburger{
+    margin-left: auto;
+}
+.navicon{
+    height: 40px;
+}
+.group1{
+    padding-top: 40px;
+    width: 100%;
+}
+
+.welcome-header{
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'Crimso Text';
+}
+.welcome-description{
+    font-family: 'Work Sans';
+}
+.explore{
+    background-color: white;
+    padding: 5px 20px 5px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border-color: white;
+    border-style: none;
+    margin-top: 20px;
+    font-family: 'Work Sans';
+
+}
+.partners{
+    background-color: white;
+    text-align: center;
+}
+.partner{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    color: #74C69D;
+    font-weight: 500;
+    font-family: 'Work Sans';
+}
+.partner-description{
+    font-family: 'Work Sans';
+}
+.media{
+    background-color: white;
+    padding: 20px 50px 20px 50px;
+    justify-items: center;
+}
+.media-pic{
+    padding-left: 20px;
+    padding-right: 50px;
+}
+.learn,.learnmore{
+    background-color:black;
+    padding: 5px 20px 5px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border-color:black;
+    border-style: none;
+    color: white;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    font-family: 'Work Sans';
+}
+.learnmore{
+    background-color:black;
+    padding: 5px 20px 5px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border-color:black;
+    border-style: none;
+    color: white;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    
+}
+.group{
+    padding: 20px;
+    background-color: white;
+    align-content: center;
+}
+.group2-pic{
+    width: 100%;
+    padding-bottom: 20px;
+}
+.group2-header{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    font-family: 'Crimson Text';
+}
+.group2-description{
+    font-family: 'Work Sans';
+}
+.more{
+    background-color:black;
+    padding: 5px 20px 5px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border-color:black;
+    border-style: none;
+    color: white;
+    margin-top: 20px;
+    
+}
+.working-pic{
+    width:100% ;
+    padding-top: 40px;
+}
+.Team{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h4{
+    font-size: 20px;
+    font-family: 'Crimson Text';
+}
+.teamheader{
+    font-size: 20px;
+    font-family: 'Crimson Text';
+    color: #74C69D;
+}
+.team-subheader{
+    font-size: 16px;
+    text-align: center;
+}
+.teamdescription{
+    color: black;
+}
+
+    .work{
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+    }
+.cards{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr); 
+        gap: 10px; }
+    
+.person{
+    border: 1px solid black;
+    margin-top: 20px;
+    padding: 25px;
+    border-radius: 5px;
+    box-shadow: -2px 0 5px ;
+}
+.nametag{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Crimson Text';
+}
+.title{
+    font-size: 14px;
+    font-family: 'Work Sans';
+    color: grey;
+}
+.footer{
+    background-color: #74C69D;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    color: white;
+}
+.social-icon{
+    padding-right: 10px;
+}
+.links{
+    margin-left: auto;
+    display: none;
+    gap: 30px;
+    font-family: 'Work Sans';
+    
+}
+.copyright{
+    font-family: 'Work Sans';
+}
+
+@media screen and (min-width:550px){
+    .welcome{
+        padding: 20px 50px 50px 50px;
+    }
+    .navlink{
+        padding: 0px 50px 0px 50px;
+    }
+    .navicon{
+        height: 50px;
+        padding-top: 15px;
+    }
+    .hamburger{
+        display: none;
+    }
+    .links {
+        display: block;
+        color: white;
+        margin-top: 30px;
+        font-size: 20px;
+        text-decoration: none;
+    }
+    ul {
+        list-style: none;
+        display: flex;
+        gap: 30px;
+        color: white;
+    }
+    a{
+        color: white;
+        text-decoration: none;
+    }
+    
+    .navlink{
+        display: flex;
+        gap: 40px;
+    }
+    
+    .banner{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .subTitle{
+        font-size: 20px;
+        padding-top: 20px;
+        
+    }
+    .welcome-header{
+        font-size: 40px;
+        padding-top: 20px;
+        
+    }
+    .welcome-description{
+        font-size: 20px;
+        padding-right: 190px;
+
+    }
+    .partner{
+        font-size: 20px;
+    }
+    h4{
+        font-size: 24px;
+        padding-bottom: 5px;
+    }
+    .learn{
+        transform: translateX(30px);
+    }
+    .group2{
+        display: flex;
+        flex-direction: row;
+    }
+    .group3{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .group2-header{
+        padding-top: 150px;
+        font-weight: 500;
+        font-size: 25px;
+        font-family: 'Crimson Text';
+    }
+    .paragraph{
+        padding-left: 80px;
+        padding-right: 80px;
+        width: 60%;
+
+    }
+    .work{
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+    }
+    .cards{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 10px;
+    }
+    
+    .person{
+        margin-left: 40px;
+    }
+}
+@media screen and (min-width:900px) {
+    .learn{
+        transform: translateX(550px);
+    }
+    .group{
+        padding-left: 90px;
+        padding-right: 90px;
+    }
+    .group2-header{
+        padding-top: 200px;
+    }
+    .working-pic,.group2-pic{
+        width: 70%;
+        padding-top: 90px;
+    }
+    .working-pic{
+        padding-top: 30px;
+    }
+    .work{
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+    }
+    .cards{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr); 
+        gap: 10px;
+    }
+    .paragraph{
+        padding: 50px;
+    }
+    .socials{
+        display: flex;
+        gap: 550px;
+    }
+}
+
+
