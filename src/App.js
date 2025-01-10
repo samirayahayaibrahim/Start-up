@@ -4,6 +4,7 @@ import Navigation from './Navigation';
 import Portfolio from './Portfolio';
 import Hamburger from "./Hamburger";
 import Footer from "./Footer";
+import Contact from "./contact";
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom/cjs/react-router-dom.min';
 
 
@@ -19,6 +20,9 @@ function App() {
             </Route>
             <Route exact path="/Portfolio">
               <Portfolio />
+            </Route>
+            <Route>
+              <Contact />
             </Route>
               <Hamburger />
           </Switch>
