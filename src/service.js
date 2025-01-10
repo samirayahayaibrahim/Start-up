@@ -1,59 +1,61 @@
-
+import servicestyle from './servicestyle.css';
+import App from './App.css';
+import check from './assets/check-lg 1.png';
 const ServiceComponent = () => {
     return ( 
         <div className="service">
                     <h3>Plans</h3>
-            <p>Our Services</p>
-            <p>Lorem ipsum, dolor sit amet consectetur
+            <p className='subheader'>Our Services</p>
+            <p className='description'>Lorem ipsum, dolor sit amet consectetur
             adipisicing elit.</p>
             <div className="cards">
                 <div className="card">
-                    <p>Basic</p>
-                    <p>$100
-                    /month</p>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit nemo hic quos, ab, dolor aperiam</p>
-                    <div className="list">
+                    <p className='head'>Basic</p>
+                    <p className='dollar'>$100
+                    <span>/month</span></p>
+                    <p className="paragraphcard">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit nemo hic quos, ab, dolor aperiam</p>
+                    <div className="lists">
                         <ul>
-                            <li><img src="" className="mark"/>Lorem ipsum, dolor sit </li>
-                            <li><img src="" className="mark"/>Lorem ipsum, dolor sit </li>
-                            <li><img src="" className="mark"/>Lorem ipsum, dolor sit </li>
-                            <li><img src="" className="mark"/>Lorem ipsum, dolor sit </li>
-                            <li><img src="" className="mark"/>Lorem ipsum, dolor sit </li>
+                            <li><img src={check} className="mark" alt=''/>Lorem ipsum, dolor sit </li>
+                            <li><img src={check} className="mark"/>Lorem ipsum, dolor sit</li> 
+                            <li><img src={check} className="mark"/>Lorem ipsum, dolor sit </li>
+                            <li ><img src={check} className="mark"/>Lorem ipsum, dolor sit</li> 
+                            <li><img src={check} className="mark"/>Lorem ipsum, dolor sit </li>
                         </ul>
                     </div>
-                    <button className='more'>Learn More</button>
+                    <button className='btm'>Learn More</button>
                 </div>
                 <div className="card">
-                    <p>Plus</p>
-                    <p>$250
-                    /month</p>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit nemo hic quos, ab, dolor aperiam</p>
-                    <div className="list">
+                    <p className='head'>Plus</p>
+                    <p className='dollar'>$250
+                    <span>/month</span></p>
+                    <p className="paragraphcard">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit nemo hic quos, ab, dolor aperiam</p>
+                    <div className="lists">
                         <ul>
-                            <li><img src="" className="mark"/>Lorem ipsum, dolor sit </li>
-                            <li><img src="" className="mark"/>Lorem ipsum, dolor sit </li>
-                            <li><img src="" className="mark"/>Lorem ipsum, dolor sit </li>
-                            <li><img src="" className="mark"/>Lorem ipsum, dolor sit </li>
-                            <li><img src="" className="mark"/>Lorem ipsum, dolor sit </li>
+                            <li><img src={check} className="mark"/>Lorem ipsum, dolor sit </li>
+                            <li><img src={check} className="mark"/>Lorem ipsum, dolor sit </li>
+                            <li><img src={check} className="mark"/>Lorem ipsum, dolor sit </li>
+                            <li><img src={check} className="mark"/>Lorem ipsum, dolor sit </li>
+                            <li><img src={check} className="mark"/>Lorem ipsum, dolor sit </li>
                         </ul>
                     </div>
-                    <button className='more'>Learn More</button>
+                    <button className='btm'>Learn More</button>
                 </div>
                 <div className="card">
-                    <p>Pro</p>
-                    <p>$400
-                    /month</p>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit nemo hic quos, ab, dolor aperiam</p>
-                    <div className="list">
+                    <p className='head'>Pro</p>
+                    <p className='dollar'>$400
+                    <span>/month</span></p>
+                    <p className="paragraphcard">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit nemo hic quos, ab, dolor aperiam</p>
+                    <div className="lists">
                         <ul>
-                            <li><img src="" className="mark"/>Lorem ipsum, dolor sit </li>
-                            <li><img src="" className="mark"/>Lorem ipsum, dolor sit </li>
-                            <li><img src="" className="mark"/>Lorem ipsum, dolor sit </li>
-                            <li><img src="" className="mark"/>Lorem ipsum, dolor sit </li>
-                            <li><img src="" className="mark"/>Lorem ipsum, dolor sit </li>
+                            <li><img src={check} className="mark"/>Lorem ipsum, dolor sit </li>
+                            <li><img src={check} className="mark"/>Lorem ipsum, dolor sit </li>
+                            <li><img src={check} className="mark"/>Lorem ipsum, dolor sit </li>
+                            <li><img src={check} className="mark"/>Lorem ipsum, dolor sit </li>
+                            <li><img src={check} className="mark"/>Lorem ipsum, dolor sit </li>
                         </ul>
                     </div>
-                    <button className='more'>Learn More</button>
+                    <button className='btm'>Learn More</button>
                 </div>
             </div>
         </div>
