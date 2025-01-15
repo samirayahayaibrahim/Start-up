@@ -12,7 +12,7 @@ const ServiceComponent = () => {
                 <div className="card">
                     <p className='head'>Basic</p>
                     <p className='dollar'>$100
-                    <span>/month</span></p>
+                    <span className='month'>/month</span></p>
                     <p className="paragraphcard">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit nemo hic quos, ab, dolor aperiam</p>
                     <div className="lists">
                         <ul>
@@ -28,7 +28,7 @@ const ServiceComponent = () => {
                 <div className="card">
                     <p className='head'>Plus</p>
                     <p className='dollar'>$250
-                    <span>/month</span></p>
+                    <span className='month'>/month</span></p>
                     <p className="paragraphcard">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit nemo hic quos, ab, dolor aperiam</p>
                     <div className="lists">
                         <ul>
@@ -44,7 +44,7 @@ const ServiceComponent = () => {
                 <div className="card">
                     <p className='head'>Pro</p>
                     <p className='dollar'>$400
-                    <span>/month</span></p>
+                    <span className='month'>/month</span></p>
                     <p className="paragraphcard">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit nemo hic quos, ab, dolor aperiam</p>
                     <div className="lists">
                         <ul>

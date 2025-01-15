@@ -13,7 +13,7 @@ const NavigationComponent= () => {
             </div>
             
         <div className="links">
-            <ul>
+            <ul className='burgers'>
             <li><a href="/">Home</a></li>
             <li><a href="portfolio">Portfolio</a></li>
             <li><a href="services">Services</a></li>

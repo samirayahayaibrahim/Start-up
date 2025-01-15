@@ -1,11 +1,12 @@
-import React, { useState } from "react";
-import "./hamburgerstyle.css";
+// src/HamburgerMenu.js
+import React, { useState } from 'react';
+import './hamburgerstyle.css';
 
-const HamburgerComponent = () => {
-  const [isOpen, setIsOpen] = useState(false);
+const useHamburger = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const toggleMenu = () => {
-    setIsOpen(!isOpen);
+    setIsMenuOpen(!isMenuOpen);
   };
   const [isClose, setIsClose] = useState(false);
 
@@ -13,31 +14,27 @@ const HamburgerComponent = () => {
     setIsClose(!isClose);
   };
 
-    return (
-    <div className="hamburger-menu">
-      {/* Hamburger Icon */}
-    <div className={`hamburger ${isOpen ? "open" : ""}`} onClick={toggleMenu}>
-        <div className="line"></div>
-        <div className="line"></div>
-        <div className="line"></div>
-    </div>
+  
 
-      {/* Navigation Menu */}
-        <nav className={`nav-menu ${isOpen ? "open" : ""}`}>
-        <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="portfolio">Portfolio</a></li>
-            <li><a href="services">Services</a></li>
-            <li><a href="contact">Contact</a></li>
+  return (
+    <nav className="hamburger-nav">
+      <div className={`hamburger-icon ${isMenuOpen ? "open" : ""}`}  onClick={toggleMenu}>
+        <div className="bar"></div>
+        <div className="bar"></div>
+        <div className="bar"></div>
+      </div>
+      <div className={`menu ${isMenuOpen ? 'active' : ''}`}>
+        <ul className='burger'>
+          <li><a href="/">Home</a></li>
+          <li><a href="/portfolio">Portfolio</a></li>
+          <li><a href="/services">Services</a></li>
+          <li><a href="/contact">Contact</a></li>
         </ul>
-        </nav>
-    
-<div className={`hamburger ${isClose ? "close" : ""}`} onClick={closeMenu}>
-</div>
-</div>
-
-
-);
+        
+      </div>
+      <div className={`hamburger ${isClose ? "close" : ""}`} onClick={closeMenu}></div>
+    </nav>
+  );
 };
 
-export default HamburgerComponent;
+export default useHamburger;

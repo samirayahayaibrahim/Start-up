@@ -1,70 +1,135 @@
-# Getting Started with Create React App
+# Start-up
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Description**This project is a webpage designed with HTML/CSS and JAVASCRIPT,featuring a responsive layout and modern design elements.
 
-## Available Scripts
 
-In the project directory, you can run:
+##Table of contents                        
 
-### `npm start`
+1.[project name](Sart-up)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2.[table content]
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+3.[introduction]
 
-### `npm test`
+4.[live demo]
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+5.[features]
 
-### `npm run build`
+6.[technologies used]
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+7.[setup and installation]
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+8.[usage]
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+9.[license]
 
-### `npm run eject`
+10.[author(s)]
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+##Overview
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+The project is build using REACT providing a visually appealing and responsible layout for a web page.it include pages such as:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+-HOME and PORTFOLIO.
 
-## Learn More
+##HOME
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Section include
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+-Navigation section(which contain logo and hamburger menu).
 
-### Code Splitting
+-banner section which contain sub-headers, paragraph and images.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+-partner and media section which contain header,images and paragraphs.
 
-### Analyzing the Bundle Size
+-groups,socials and cards posts section also contain sub-header,images and paragraph.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+-Footer(socials) section which is the last section contain header,icons,links and paragraph.
 
-### Making a Progressive Web App
+##PORTFOLIO
+section include
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+-Navigation section(which contain logo and hamburger menu).
 
-### Advanced Configuration
+-Header section(contain header and paragraph for portfolio).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+-Portfolio-pic section(contain div with classes and images)
 
-### Deployment
+-Footer(socials) section which is the last section contain header,icons,links and paragraph.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+##Live server
 
-### `npm run build` fails to minify
+-checkout the Live Demo of the project[live demo](https://hotel-website-eqpk.onrender.com)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+##Technologies used##
+
+-REACT
+
+##feature
+
+
+-**Responsive Design**the layout adjust to various screen size using media quaries.
+
+-**custom properties**:utilize css variables for theme colors,making easy to adjust the overall colour scheme.
+
+-**modern Typography**:used "Work Sans" and "Crimso Text" font for modern and clean look.
+
+-**flexbox layout**:ensure element are properly align and spaced,creating a balanced design.
+
+
+##setup instruction##
+
+1.**clone repository**:
+'''bash
+     git clone
+     
+2.**Navigate to the project directory**:
+   cd start-up.
+   
+3.**open the react file**:
+  "react.js".
+
+  
+##usage##
+-the css.file("style.css")to style the react file.
+
+-to make any adjustment,edit the style.css
+
+-the react("react.js)provide reponsive website.
+
+
+##key REACT Component structure##
+
+here are some basic key structure of the  structure
+-1st section which contain Navigation
+
+-2nd section which contain homepage
+
+-3rd section portfolio.
+
+-4th section which contain footer
+
+##license##     
+
+the project is licensed under MIT LICENSE
+
+
+##Author##
+
+**Samira Yahaya Ibrahim**
+
+##Email
+
+**samirayahayaibraheem@gmail.com**
+
+##Github##
+
+**https://github.com/samirayahayaibrahim** 
+
+##Render
+**https://start-up-su59.onrender.com**
+
+##Loom
+**https://www.loom.com/share/05e92c9d5a924af3b88fc1e30ed88f94?sid=212aa408-c21e-4a5a-a061-2da2d2eb781d**
+
+###Am having issues with my loom,my face can't be recorded,Mal Ali ask me to record it without the face,sorry for inconvenience.

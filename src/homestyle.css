@@ -3,21 +3,22 @@
     color: white;
 }
 .subTitle{
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 5px;
     font-family: "Work Sans";
     font-weight: 500;
-    font-size: 16px;
-    font-family: 'Work Sans';
+    font-size: 15px;
+    margin-top: 20px;
 }
 .nav{
     display: flex;
+    height: 30px;
 }
 .hamburger{
     margin-left: auto;
 }
 .navicon{
-    height: 40px;
+    height: 30px;
 }
 .group1{
     padding-top: 40px;
@@ -61,13 +62,14 @@
     background-color: white;
     padding: 20px 50px 20px 50px;
     justify-items: center;
+
 }
 .media-pic{
     padding-left: 20px;
     padding-right: 50px;
 }
-.learn,.learnmore{
-    background-color:black;
+.learn{
+    background-color:#212529;
     padding: 5px 20px 5px 20px;
     font-size: 16px;
     border-radius: 5px;
@@ -77,10 +79,9 @@
     margin-top: 20px;
     margin-left: 50px;
     margin-bottom: 20px;
-    font-family: 'Work Sans';
 }
 .learnmore{
-    background-color:black;
+    background-color:#212529;
     padding: 5px 20px 5px 20px;
     font-size: 16px;
     border-radius: 5px;
@@ -111,7 +112,7 @@
     font-family: 'Work Sans';
 }
 .more{
-    background-color:black;
+    background-color:#212529;
     padding: 5px 20px 5px 20px;
     font-size: 16px;
     border-radius: 5px;
@@ -156,10 +157,12 @@ h4{
 .cards{
         display: grid;
         grid-template-columns: repeat(1, 1fr); 
-        gap: 10px; }
-    
+        gap: 10px; 
+        
+    }
+
 .person{
-    border: 1px solid black;
+    border: 1px solid #212529;
     margin-top: 20px;
     padding: 25px;
     border-radius: 5px;
@@ -185,6 +188,9 @@ h4{
 }
 .social-icon{
     padding-right: 10px;
+}
+.social{
+    margin-left:10px;
 }
 .links{
     margin-left: auto;
@@ -218,15 +224,19 @@ h4{
         font-size: 20px;
         text-decoration: none;
     }
-    ul {
+    .burgers{
         list-style: none;
         display: flex;
+        flex-direction: row;
         gap: 30px;
         color: white;
+        font-family: 'Work Sans';
+        font-size: 20px;
     }
     a{
         color: white;
         text-decoration: none;
+        font-size: 20px;
     }
     
     .navlink{
@@ -292,13 +302,17 @@ h4{
         display: grid;
         grid-template-columns: repeat(2, 1fr); 
         gap: 10px;
+        transform: translateX(-70px);
     }
     
     .person{
-        margin-left: 40px;
+        margin-left: 20px;
+    }
+    .learn{
+        transform: translateX(-75px);
     }
 }
-@media screen and (min-width:900px) {
+@media screen and (min-width:970px) {
     .learn{
         transform: translateX(550px);
     }
@@ -325,6 +339,7 @@ h4{
         display: grid;
         grid-template-columns: repeat(4, 1fr); 
         gap: 10px;
+        
     }
     .paragraph{
         padding: 50px;
@@ -334,5 +349,6 @@ h4{
         gap: 550px;
     }
 }
+
 
 
