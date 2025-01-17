@@ -1,4 +1,4 @@
-import App from './App.css';
+import App from '../App.css';
 import map from './assets/map.png';
 import React, { useState } from "react";
 import contactstyle from './contactstyle.css';

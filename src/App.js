@@ -1,11 +1,11 @@
 import './App.css';
-import Home from './Home';
-import Navigation from './Navigation';
-import Portfolio from './Portfolio';
-import Hamburger from "./Hamburger";
-import Footer from "./Footer";
-import Contact from "./contact";
-import Service from "./Service";
+import Home from './Components/Home';
+import Navigation from './Components/Navigation';
+import Portfolio from './Components/Portfolio';
+import Hamburger from "./Components/Hamburger";
+import Footer from "./Components/Footer";
+import Contact from "./Components/contact";
+import Service from "./Components/Service";
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom/cjs/react-router-dom.min';
 
 

@@ -1,4 +1,4 @@
-import './App.css';
+import '../App.css';
 import './homestyle.css';
 import './portfoliostyle.css';
 import Hamburger from './Hamburger';

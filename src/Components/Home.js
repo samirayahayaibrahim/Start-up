@@ -1,4 +1,4 @@
-import App from './App.css';
+import App from '../App.css';
 import homestyle from './homestyle.css';
 import group from './assets/group.png';
 import google from './assets/google.jpg';

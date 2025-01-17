@@ -1,5 +1,4 @@
-import Home from './Home';
-import App from './App.css';
+import App from '../App.css';
 import portfoliostyle from './portfoliostyle.css';
 import Navigation from './Navigation';
 import portpic1 from './assets/port-pic 1.jpg';

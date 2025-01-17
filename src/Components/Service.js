@@ -1,5 +1,5 @@
 import servicestyle from './servicestyle.css';
-import App from './App.css';
+import App from '../App.css';
 import check from './assets/check-lg 1.png';
 
 const ServiceComponent = () => {
