@@ -1,4 +1,4 @@
-import Home from './home';
+import Home from './Home';
 import App from './App.css';
 import portfoliostyle from './portfoliostyle.css';
 import Navigation from './Navigation';
