@@ -10,7 +10,7 @@ import portpic5 from './assets/port-pic 5.jpg';
 import portpic6 from './assets/port-pic 6.jpg';
 import portpic7 from './assets/port-pic 7.jpg';
 import portpic8 from './assets/port-pic 8.png';
-const portfolioComponent = () => {
+const PortfolioComponent = () => {
     return ( 
         <div className='portifoliopage'>
         <div className='nav'>
@@ -46,4 +46,4 @@ const portfolioComponent = () => {
     );
 }
 
-export default portfolioComponent;
+export default PortfolioComponent;

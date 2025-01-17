@@ -14,7 +14,7 @@ import person3 from './assets/person 3.jpg';
 import person4 from './assets/person 4.jpg';
 import { motion } from 'framer-motion';
 
-const homeComponent = () => {
+const HomeComponent = () => {
     const welcomeHeader = "Lorem ipsum, dolor sit amet consectetur";
     const welcomeDescription = "Lorem ipsum, dolor sit  amet consectetur adipisicing elit. Suscipit nemo hic quos, ab, dolor aperiam nobis cum est eos error ipsum, voluptate culpa nesciunt delectus iste?";
     const partnerDescription = "Lorem ipsum, dolor sit amet consectetur adipisicing elit.";
@@ -113,5 +113,5 @@ const homeComponent = () => {
     );
 }
 
-export default homeComponent;
+export default HomeComponent;
 
