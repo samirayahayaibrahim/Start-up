@@ -23,8 +23,7 @@ h3{
     padding: 10px;
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    
+    gap: 10px; 
 }
 .portfolio-pic{
         display: flex;
@@ -32,11 +31,16 @@ h3{
 }
 
 
-
 @media screen and (min-width:600px){
 .portfolio-pic{
-    display: flex;       
+    display: flex; 
+    padding-left: 95px;      
 }
+
+.portpic{
+    width: 85%;
+}
+
 .portcard{
     display: flex;
     flex-direction: row;

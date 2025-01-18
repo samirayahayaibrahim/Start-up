@@ -6,35 +6,29 @@ import Hamburger from "./Components/Hamburger";
 import Footer from "./Components/Footer";
 import Contact from "./Components/contact";
 import Service from "./Components/Service";
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom/cjs/react-router-dom.min';
+import { BrowserRouter as Router, Route, Routes, Switch, BrowserRouter, NavLink, Link  } from 'react-router-dom';
 
 
 function App() {
   return (
-    <Router>
+    <BrowserRouter>
       <div className="App">
         <Navigation/>
         <div className='content'>
-          <Switch>
-            <Route exact path="/">
-              <Home />
-            </Route>
-            <Route exact path="/Portfolio">
-              <Portfolio />
-            </Route>
-            <Route exact path="/Services">
-              <Service />
-            </Route>
-            <Route exact path="/Contact">
-              <Contact />
-            </Route>
-              <Hamburger />
-          </Switch>
+        <Routes>
+        <Route index element={<Home />}/>
+        <Route exact path="/Portfolio" element={<Portfolio />}/>
+        <Route exact path="/Services" element={<Service />}/>
+        <Route exact path="/Contact" element={<Contact />}/>
+        </Routes>
+        <Hamburger />
         </div>
         <Footer/>
       </div>
-    </Router>
+    </BrowserRouter>
+    
   );
 }
 
 export default App;
+

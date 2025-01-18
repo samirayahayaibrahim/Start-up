@@ -60,8 +60,9 @@
 }
 .media{
     background-color: white;
-    padding: 20px 50px 20px 50px;
+    padding: 20px 50px 50px 50px;
     justify-items: center;
+    height: 250px;
 
 }
 .media-pic{
@@ -79,6 +80,7 @@
     margin-top: 20px;
     margin-left: 50px;
     margin-bottom: 20px;
+    position: absolute;
 }
 .learnmore{
     background-color:#212529;
@@ -202,8 +204,26 @@ h4{
 .copyright{
     font-family: 'Work Sans';
 }
+@media screen and (min-width:500px){
+    .burgers{
+        display: block;
+    }
+    .cards{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 10px;
+        transform: translateX(-200px);
+    }
+    
+.learn{
+    margin-top: 50px;
+    margin-left: -50px;
+    margin-bottom: 20px;
+}
+    
+}
 
-@media screen and (min-width:550px){
+@media screen and (min-width:900px){
     .welcome{
         padding: 20px 50px 50px 50px;
     }
@@ -215,7 +235,7 @@ h4{
         padding-top: 15px;
     }
     .hamburger{
-        display: none;
+        display: block;
     }
     .links {
         display: block;
@@ -223,6 +243,11 @@ h4{
         margin-top: 30px;
         font-size: 20px;
         text-decoration: none;
+    }
+    .learn{
+        margin-top: 70px;
+        margin-left: -90px;
+        margin-bottom: 20px;
     }
     .burgers{
         list-style: none;

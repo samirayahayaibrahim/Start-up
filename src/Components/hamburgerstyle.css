@@ -39,6 +39,7 @@
   width: 100%;
   background-color: white;
   display: none;
+  margin-left: auto;
 
 }
 .burger{
@@ -52,7 +53,7 @@
 }
 
 /* Media Query for Small Screens (Mobile) */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   
 .burger{
   display: flex;
@@ -85,7 +86,7 @@
   width: 100%;
   background-color: white;
   display: block;
-  margin-left: 150px;
+  margin-left: 140px;
 
 }
 
@@ -128,5 +129,12 @@
   top: -8px;
 }
 
-
+}
+@media screen and (max-width: 950px) {
+  .hamburger-nav .hamburger-icon {
+    display: flex;
+    margin-top: -20px;
+    margin-left: auto;
+    transform: translateX(10px);
+  }
 }
