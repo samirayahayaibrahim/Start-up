@@ -49,7 +49,8 @@ const HomeComponent = () => {
                 <img src={airbnb} className='media-pic' alt=''/>
                 <img src={facebook} className='media-pic' alt=''/>
                 <img src={spotify} className='media-pic' alt=''/>
-                <button className='learn'>Learn More</button>
+                <div className='mybtn'><button className='learn'>Learn More</button></div>
+                
             </div>
             <div className='group'>
                 <div className='group2'>

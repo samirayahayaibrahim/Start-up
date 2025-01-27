@@ -21,7 +21,7 @@ function App() {
         <Route exact path="/Services" element={<Service />}/>
         <Route exact path="/Contact" element={<Contact />}/>
         </Routes>
-        <Hamburger />
+        
         </div>
         <Footer/>
       </div>

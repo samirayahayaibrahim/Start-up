@@ -37,8 +37,8 @@ const PortfolioComponent = () => {
                 <div className='portcard'>
                     <img src={portpic7} className="portpic" alt=''/>
                     <img src={portpic8} className="portpic " alt=''/>
-                    </div>
-            
+                </div>
+                
             </div>
             </div>
         </div>

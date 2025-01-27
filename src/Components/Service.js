@@ -9,7 +9,7 @@ const ServiceComponent = () => {
             <p className='subheader'>Our Services</p>
             <p className='description'>Lorem ipsum, dolor sit amet consectetur
             adipisicing elit.</p>
-            <div className="cards">
+            <div className="cards" id='cards'>
                 <div className="card">
                     <p className='head'>Basic</p>
                     <p className='dollar'>$100
@@ -24,7 +24,7 @@ const ServiceComponent = () => {
                             <li><img src={check} className="mark"/>Lorem ipsum, dolor sit </li>
                         </ul>
                     </div>
-                    <button className='btm'>Learn More</button>
+                    <div className='btn'> <button className='btm'>Learn More</button></div>
                 </div>
                 <div className="card">
                     <p className='head'>Plus</p>
@@ -40,7 +40,7 @@ const ServiceComponent = () => {
                             <li><img src={check} className="mark"/>Lorem ipsum, dolor sit </li>
                         </ul>
                     </div>
-                    <button className='btm'>Learn More</button>
+                    <div className='btn'> <button className='btm'>Learn More</button></div>
                 </div>
                 <div className="card">
                     <p className='head'>Pro</p>
@@ -56,8 +56,9 @@ const ServiceComponent = () => {
                             <li><img src={check} className="mark"/>Lorem ipsum, dolor sit </li>
                         </ul>
                     </div>
-                    <button className='btm'>Learn More</button>
+                    <div className='btn'> <button className='btm'>Learn More</button></div>
                 </div>
+                
             </div>
         </div>
     );

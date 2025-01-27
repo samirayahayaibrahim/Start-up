@@ -59,15 +59,17 @@
     font-family: 'Work Sans';
 }
 .media{
-    background-color: white;
+    background-color:white;
     padding: 20px 50px 50px 50px;
     justify-items: center;
-    height: 250px;
-
+    height: 350px;
+    margin-bottom: 50px;
 }
 .media-pic{
-    padding-left: 20px;
-    padding-right: 50px;
+    padding-left: 70px;
+    padding-right: 0px;
+    justify-content: center;
+
 }
 .learn{
     background-color:#212529;
@@ -78,9 +80,6 @@
     border-style: none;
     color: white;
     margin-top: 20px;
-    margin-left: 50px;
-    margin-bottom: 20px;
-    position: absolute;
 }
 .learnmore{
     background-color:#212529;
@@ -99,6 +98,7 @@
     padding: 20px;
     background-color: white;
     align-content: center;
+    margin-top: -50px;
 }
 .group2-pic{
     width: 100%;
@@ -160,13 +160,14 @@ h4{
         display: grid;
         grid-template-columns: repeat(1, 1fr); 
         gap: 10px; 
+        justify-content: center;
         
     }
 
 .person{
     border: 1px solid #212529;
     margin-top: 20px;
-    padding: 25px;
+    padding: 15px;
     border-radius: 5px;
     box-shadow: -2px 0 5px ;
 }
@@ -187,12 +188,13 @@ h4{
     align-items: center;
     padding: 20px;
     color: white;
+margin-top: 50px;
 }
 .social-icon{
     padding-right: 10px;
 }
 .social{
-    margin-left:10px;
+    margin-left:25px;
 }
 .links{
     margin-left: auto;
@@ -204,7 +206,11 @@ h4{
 .copyright{
     font-family: 'Work Sans';
 }
-@media screen and (min-width:500px){
+.mybtn{
+    justify-content: center;
+    overflow-x: hidden;
+}
+@media screen and (min-width:600px){
     .burgers{
         display: block;
     }
@@ -212,18 +218,22 @@ h4{
         display: grid;
         grid-template-columns: repeat(2, 1fr); 
         gap: 10px;
-        transform: translateX(-200px);
     }
     
 .learn{
-    margin-top: 50px;
-    margin-left: -50px;
-    margin-bottom: 20px;
-}
-    
+    background-color:#212529;
+    padding: 5px 20px 5px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border-color:black;
+    border-style: none;
+    color: white;
+    margin-top: 20px;
 }
 
-@media screen and (min-width:900px){
+}
+
+@media screen and (min-width:800px){
     .welcome{
         padding: 20px 50px 50px 50px;
     }
@@ -246,7 +256,6 @@ h4{
     }
     .learn{
         margin-top: 70px;
-        margin-left: -90px;
         margin-bottom: 20px;
     }
     .burgers{
@@ -295,9 +304,6 @@ h4{
         font-size: 24px;
         padding-bottom: 5px;
     }
-    .learn{
-        transform: translateX(30px);
-    }
     .group2{
         display: flex;
         flex-direction: row;
@@ -327,23 +333,21 @@ h4{
         display: grid;
         grid-template-columns: repeat(2, 1fr); 
         gap: 10px;
-        transform: translateX(-200px);
+        margin-left: -200px;
     }
     
     .person{
         margin-left: 20px;
     }
-    .learn{
-        transform: translateX(-75px);
+    .mybtn{
+        justify-content: center;
     }
 }
 @media screen and (min-width:970px) {
-    .learn{
-        transform: translateX(550px);
-    }
     .group{
         padding-left: 90px;
         padding-right: 90px;
+        margin-top:-195px;
     }
     .group2-header{
         padding-top: 200px;
@@ -373,7 +377,8 @@ h4{
         display: flex;
         gap: 550px;
     }
+    .mybtn{
+        justify-content: center;
 }
 
-
-
+}

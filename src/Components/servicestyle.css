@@ -1,9 +1,8 @@
 .service{
     margin-top: 20px;
     background-color: white;
-    padding: 30px;
-    justify-items: center;
-    
+    align-content: center;
+    overflow-x: hidden;
 }
 .card{
     text-align: center;
@@ -12,16 +11,16 @@
     flex-direction: column;
     padding-top: 20px;
     border-radius: 5px;
-    padding-left: 30px;
-    padding-right: 30px;
-
-
+    padding-left: -60px;
+    padding-right: -60px;
+    justify-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 .cards{
-    gap: 20px;
-    padding-left: 20px;
+    gap: 50px;
     padding-top: 20px;
-    align-content: center;
+    justify-items: center;
 }
 .subheader,.description{
     text-align: center;
@@ -36,18 +35,17 @@
 }
 .btm{
     background-color:#212529;
-    padding: 5px 0px 5px 0px;
+    padding: 5px 20px 5px 0px;
+    width: 200px;
     font-size: 16px;
     border-radius: 5px;
     border-color:black;
     border-style: none;
     color: white;
     margin-top: 20px;
-    margin-left: 40px;
+    align-items: center;
     margin-bottom: 20px;
-    margin-right: 40px;
-    
-
+    justify-content: center;
 }
 .lists{
     display: flex;
@@ -63,6 +61,7 @@ ul{
 .paragraphcard{
     font-size: 15px;
     color: gray;
+    padding: 5px;
 }
 li{
     color:black;
@@ -100,12 +99,17 @@ li{
 }
 @media screen and (min-width:600px){
     .cards{
-        margin-left: 250px;
-        margin-right: -150px;
+        justify-content: center;
+        transform: translateX(0px);
+        gap: 0px;
     }
     .subheader{
         font-weight: 700;
         font-size: 35px;
+    }
+    .card{
+        padding: 10px;
+        margin: 10px;
     }
     
 li{
@@ -130,7 +134,11 @@ li{
     margin-bottom: 20px;
     margin-right: 50px;
     
-
 }
     
+}
+@media screen and (min-width:1000px) {
+    .cards{
+        transform: translateX(150px);
+    }
 }
