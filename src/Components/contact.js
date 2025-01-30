@@ -20,6 +20,7 @@ const useContact = () => {
         e.preventDefault();
         alert(`Username: ${formValues.username}, email: ${formValues.email}, message: ${formValues.message}`);
     };
+
     return ( 
         <div className="contact">
             <h2>Contact Us</h2>
@@ -36,7 +37,10 @@ const useContact = () => {
                 <input type="text" name="message" value={formValues.message} onChange={handleChange} placeholder="" className='message'/><br/>
                 <button type="submit" className='submit'>Submit</button>
                 </div>
-                <img src={map} className='map'/>
+                <img src="" className={map}></img>
+                <iframe src="https://www.google.fr/maps/place/Kano/@11.9246195,8.5038187,11z/data=!4m6!3m5!1s0x11ae80eff0fff3f1:0x85ff8700a3da54eb!8m2!3d12.0021794!4d8.5919561!16zL20vMDJqdHRm?entry=ttu&g_ep=EgoyMDI1MDEyNy4wIKXMDSoASAFQAw%3D%3D" >https://maps.app.goo.gl/wZvjXMdXVHqRVmEU6</iframe>
+                
+                
             </div>
             </div>
     );

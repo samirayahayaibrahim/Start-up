@@ -52,8 +52,7 @@
   display: none;
 }
 
-/* Media Query for Small Screens (Mobile) */
-@media screen and (max-width: 800px) {
+@media screen and (max-width:499px) {
   
 .burger{
   display: flex;
@@ -64,6 +63,10 @@
   margin-left: 50px;
   display: block;
   padding: 5px;
+}
+.burgers{
+  display: block;
+  transform: translateX(-00px);
 }
 
   .hamburger-nav .menu {

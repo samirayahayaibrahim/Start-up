@@ -210,7 +210,42 @@ margin-top: 50px;
     justify-content: center;
     overflow-x: hidden;
 }
-@media screen and (min-width:600px){
+
+@media screen and (min-width:500px){
+.links{
+    display: flex;
+    list-style: none;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: auto;
+    list-style: none;
+    margin-right: 30px;
+    margin-top: -20px;
+}
+
+.burgers{
+    display: flex;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: auto;
+    list-style: none;
+    flex-direction: row;
+}
+.links .burgers li a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    list-style: none;
+    padding-left: 15px;
+}
+li{
+    flex-direction: row;
+    gap: 20px;
+}
+}
+@media screen and (min-width:800px){
     .burgers{
         display: block;
     }
@@ -253,6 +288,11 @@ margin-top: 50px;
         margin-top: 30px;
         font-size: 20px;
         text-decoration: none;
+        margin-right: -60px;
+    }
+    .links .burgers li a{
+        font-size:18px;
+        list-style: none;
     }
     .learn{
         margin-top: 70px;
@@ -329,21 +369,26 @@ margin-top: 50px;
         padding: 10px;
         text-align: center;
     }
-    .cards{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr); 
-        gap: 10px;
-        margin-left: -200px;
-    }
-    
     .person{
         margin-left: 20px;
     }
     .mybtn{
         justify-content: center;
     }
+
 }
-@media screen and (min-width:970px) {
+@media screen and (min-width:500px){
+
+    .cards{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 5px;
+
+
+    }
+    
+}
+@media screen and (min-width:1000px) {
     .group{
         padding-left: 90px;
         padding-right: 90px;
@@ -367,8 +412,12 @@ margin-top: 50px;
     .cards{
         display: grid;
         grid-template-columns: repeat(4, 1fr); 
-        gap: 10px;
+        gap: 5px;
+        overflow-x: hidden;
         
+    }
+    .person{
+    width: 210px;
     }
     .paragraph{
         padding: 50px;

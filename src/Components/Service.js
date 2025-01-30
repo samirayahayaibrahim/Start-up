@@ -14,7 +14,7 @@ const ServiceComponent = () => {
                     <p className='head'>Basic</p>
                     <p className='dollar'>$100
                     <span className='month'>/month</span></p>
-                    <p className="paragraphcard">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit nemo hic quos, ab, dolor aperiam</p>
+                    <p className="paragraphcard">Lorem ipsum, dolor sit amet <br/> consectetur adipisicing elit. Suscipit nemo <br/> hic quos, ab, dolor aperiam</p>
                     <div className="lists">
                         <ul>
                             <li><img src={check} className="mark" alt=''/>Lorem ipsum, dolor sit </li>
@@ -30,7 +30,7 @@ const ServiceComponent = () => {
                     <p className='head'>Plus</p>
                     <p className='dollar'>$250
                     <span className='month'>/month</span></p>
-                    <p className="paragraphcard">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit nemo hic quos, ab, dolor aperiam</p>
+                    <p className="paragraphcard">Lorem ipsum, dolor sit amet <br/> consectetur adipisicing elit. Suscipit nemo <br/> hic quos, ab, dolor aperiam</p>
                     <div className="lists">
                         <ul>
                             <li><img src={check} className="mark"/>Lorem ipsum, dolor sit </li>
@@ -46,7 +46,7 @@ const ServiceComponent = () => {
                     <p className='head'>Pro</p>
                     <p className='dollar'>$400
                     <span className='month'>/month</span></p>
-                    <p className="paragraphcard">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit nemo hic quos, ab, dolor aperiam</p>
+                    <p className="paragraphcard">Lorem ipsum, dolor sit amet <br/> consectetur adipisicing elit. Suscipit nemo <br/> hic quos, ab, dolor aperiam</p>
                     <div className="lists">
                         <ul>
                             <li><img src={check} className="mark"/>Lorem ipsum, dolor sit </li>
