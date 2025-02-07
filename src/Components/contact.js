@@ -1,5 +1,4 @@
 import App from '../App.css';
-import map from './assets/map.png';
 import React, { useState } from "react";
 import contactstyle from './contactstyle.css';
 const useContact = () => {
@@ -37,9 +36,17 @@ const useContact = () => {
                 <input type="text" name="message" value={formValues.message} onChange={handleChange} placeholder="" className='message'/><br/>
                 <button type="submit" className='submit'>Submit</button>
                 </div>
-                <img src="" className={map}></img>
-                <iframe src="https://www.google.fr/maps/place/Kano/@11.9246195,8.5038187,11z/data=!4m6!3m5!1s0x11ae80eff0fff3f1:0x85ff8700a3da54eb!8m2!3d12.0021794!4d8.5919561!16zL20vMDJqdHRm?entry=ttu&g_ep=EgoyMDI1MDEyNy4wIKXMDSoASAFQAw%3D%3D" >https://maps.app.goo.gl/wZvjXMdXVHqRVmEU6</iframe>
-                
+                <div style={{ width: "100%", height: "400px" }}>
+                    <iframe
+                    title="Google Maps"
+                    width="100%"
+                    height="100%"
+                    style={{ border: 0 }}
+                    loading="lazy"
+                    allowFullScreen
+                    referrerPolicy="no-referrer-when-downgrade"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126898.75007882051!2d8.469916872274857!3d12.002179442118998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x11ae816f1a4507eb%3A0xf09b5f11f9b51ddf!2sKano%2C%20Nigeria!5e0!3m2!1sen!2sng!4v1707290972301!5m2!1sen!2sng"></iframe>
+                </div>
                 
             </div>
             </div>
