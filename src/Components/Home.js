@@ -77,7 +77,7 @@ const HomeComponent = () => {
                 Lorem ipsum, dolor sit amet consectetur
                 adipisicing elit.
                 </p>
-                <div className='cards'>
+                <div className='cardss'>
                     <motion.div className='person'
                     initial={{ scale: 0 }}
                     animate={{ scale: 1 }}
