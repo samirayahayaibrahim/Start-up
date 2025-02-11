@@ -1,0 +1,53 @@
+.nav{
+    padding:20px 20px 20px 20px;
+}
+.port{
+    padding:20px 40px 20px 40px;
+    background-color: white;
+}
+h3{
+    color: #74C69D;
+    text-align: center;
+    font-weight: 400;
+}
+.header-portfolio{
+    text-align: center;
+}
+.subheader{
+    font-size: 25px;
+}
+.portfolio-description{
+    font-size: 16px;
+}
+.portcard{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+}
+.portfolio-pic{
+        display: flex;
+        flex-direction: column;
+}
+
+
+@media screen and (min-width:600px){
+.portfolio-pic{
+    display: flex; 
+    padding-left: 95px;      
+}
+
+.portpic{
+    width: 85%;
+}
+
+.portcard{
+    display: flex;
+    flex-direction: row;
+    width:50%;
+}
+
+.portfolio-description{
+    font-size: 20px;
+}
+}

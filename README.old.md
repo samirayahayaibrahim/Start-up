@@ -59,7 +59,7 @@ section include
 
 ##Live server
 
--checkout the Live Demo of the project[live demo](https://start-up-su59.onrender.com)
+-checkout the Live Demo of the project[live demo](https://hotel-website-eqpk.onrender.com)
 
 ##Technologies used##
 

@@ -1,0 +1,435 @@
+.welcome{
+    padding: 20px 20px 50px 20px;
+    color: white;
+}
+.subTitle{
+    padding-top: 20px;
+    padding-bottom: 5px;
+    font-family: "Work Sans";
+    font-weight: 500;
+    font-size: 15px;
+    margin-top: 20px;
+}
+.nav{
+    display: flex;
+    height: 30px;
+}
+.hamburger{
+    margin-left: auto;
+}
+.navicon{
+    height: 30px;
+}
+.group1{
+    padding-top: 40px;
+    width: 100%;
+}
+
+.welcome-header{
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'Crimso Text';
+}
+.welcome-description{
+    font-family: 'Work Sans';
+}
+.explore{
+    background-color: white;
+    padding: 5px 20px 5px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border-color: white;
+    border-style: none;
+    margin-top: 20px;
+    font-family: 'Work Sans';
+    margin-left: 30px;
+
+}
+.partners{
+    background-color: white;
+    text-align: center;
+}
+.partner{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    color: #74C69D;
+    font-weight: 500;
+    font-family: 'Work Sans';
+}
+.partner-description{
+    font-family: 'Work Sans';
+}
+.media{
+    background-color:white;
+    padding: 20px 20px 50px 20px;
+    justify-items: center;
+    height: 350px;
+    margin-bottom: 50px;
+}
+.media-pic{
+    padding-left: 20px;
+    padding-right: 0px;
+    justify-content: center;
+    height: 40px;
+    margin-left: 50px;
+
+}
+.learn{
+    background-color:#212529;
+    padding: 5px 20px 5px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border-color:black;
+    border-style: none;
+    color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.learnmore{
+    background-color:#212529;
+    padding: 5px 20px 5px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border-color:black;
+    border-style: none;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+.group{
+    padding: 20px;
+    background-color: white;
+    align-content: center;
+    margin-top: -50px;
+}
+.group2-pic{
+    width: 100%;
+    padding-bottom: 20px;
+}
+.group2-header{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    font-family: 'Crimson Text';
+}
+.group2-description{
+    font-family: 'Work Sans';
+}
+.more{
+    background-color:#212529;
+    padding: 5px 20px 5px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border-color:black;
+    border-style: none;
+    color: white;
+    margin-top: 20px;
+    margin-left: 30px;
+    
+}
+.working-pic{
+    width:100% ;
+    padding-top: 40px;
+}
+.Team{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h4{
+    font-size: 20px;
+    font-family: 'Crimson Text';
+}
+.teamheader{
+    font-size: 20px;
+    font-family: 'Crimson Text';
+    color: #74C69D;
+}
+.team-subheader{
+    font-size: 16px;
+    text-align: center;
+}
+.teamdescription{
+    color: black;
+}
+
+    .work{
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+    }
+.cardss{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr); 
+        gap: 10px; 
+        justify-content: center;
+        
+    }
+
+.person{
+    border: 1px solid #212529;
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: -2px 0 5px ;
+}
+.nametag{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Crimson Text';
+}
+.title{
+    font-size: 14px;
+    font-family: 'Work Sans';
+    color: grey;
+}
+.footer{
+    background-color: #74C69D;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    color: white;
+margin-top: 50px;
+}
+.social-icon{
+    padding-right: 10px;
+}
+.social{
+    margin-left:25px;
+}
+.links{
+    margin-left: auto;
+    display: none;
+    gap: 30px;
+    font-family: 'Work Sans';
+    
+}
+.copyright{
+    font-family: 'Work Sans';
+}
+.mybtn{
+    justify-content: center;
+    overflow-x: hidden;
+}
+
+@media screen and (min-width:500px){
+.links{
+    display: flex;
+    list-style: none;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: auto;
+    list-style: none;
+    margin-right: 30px;
+    margin-top: -20px;
+}
+
+.burgers{
+    display: flex;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: auto;
+    list-style: none;
+    flex-direction: row;
+}
+.links .burgers li a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    list-style: none;
+    padding-left: 15px;
+}
+li{
+    flex-direction: row;
+    gap: 20px;
+}
+}
+@media screen and (min-width:800px){
+    .burgers{
+        display: block;
+    }
+    .cardss{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 10px;
+    }
+    
+.learn{
+    background-color:#212529;
+    padding: 5px 20px 5px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border-color:black;
+    border-style: none;
+    color: white;
+    margin-top: 20px;
+}
+
+}
+
+@media screen and (min-width:800px){
+    .welcome{
+        padding: 20px 50px 50px 50px;
+    }
+    .navlink{
+        padding: 0px 50px 0px 50px;
+    }
+    .navicon{
+        height: 50px;
+        padding-top: 15px;
+    }
+    .hamburger{
+        display: block;
+    }
+    .links {
+        display: block;
+        color: white;
+        margin-top: 30px;
+        font-size: 20px;
+        text-decoration: none;
+        margin-right: -60px;
+    }
+    .links .burgers li a{
+        font-size:18px;
+        list-style: none;
+    }
+    .learn{
+        margin-top: 70px;
+        margin-bottom: 20px;
+    }
+    .burgers{
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        color: white;
+        font-family: 'Work Sans';
+        font-size: 20px;
+    }
+    a{
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+    }
+    
+    .navlink{
+        display: flex;
+        gap: 40px;
+    }
+    
+    .banner{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .subTitle{
+        font-size: 20px;
+        padding-top: 20px;
+        
+    }
+    .welcome-header{
+        font-size: 40px;
+        padding-top: 20px;
+        
+    }
+    .welcome-description{
+        font-size: 20px;
+        padding-right: 190px;
+
+    }
+    .partner{
+        font-size: 20px;
+    }
+    h4{
+        font-size: 24px;
+        padding-bottom: 5px;
+    }
+    .group2{
+        display: flex;
+        flex-direction: row;
+    }
+    .group3{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .group2-header{
+        padding-top: 150px;
+        font-weight: 500;
+        font-size: 25px;
+        font-family: 'Crimson Text';
+    }
+    .paragraph{
+        padding-left: 80px;
+        padding-right: 80px;
+        width: 60%;
+
+    }
+    .work{
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+    }
+    .person{
+        margin-left: 20px;
+    }
+    .mybtn{
+        justify-content: center;
+    }
+
+}
+@media screen and (min-width:500px){
+
+    .cardss{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 5px;
+    }
+    
+}
+@media screen and (min-width:1000px) {
+    .group{
+        padding-left: 90px;
+        padding-right: 90px;
+        margin-top:-195px;
+    }
+    .group2-header{
+        padding-top: 200px;
+    }
+    .working-pic,.group2-pic{
+        width: 70%;
+        padding-top: 90px;
+    }
+    .working-pic{
+        padding-top: 30px;
+    }
+    .work{
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+    }
+    .cardss{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr); 
+        gap: 5px;
+        overflow-x: hidden;
+        
+    }
+    .person{
+    width: 210px;
+    }
+    .paragraph{
+        padding: 50px;
+    }
+    .socials{
+        display: flex;
+        gap: 550px;
+    }
+    .mybtn{
+        justify-content: center;
+}
+
+}
