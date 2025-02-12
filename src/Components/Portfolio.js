@@ -20,7 +20,7 @@ const PortfolioComponent = () => {
             <p className='subheader'>Portfolio</p>
             <p className='portfolio-description'>Lorem ipsum, dolor sit amet consectetur
             adipisicing elit.</p>
-            </div>
+        </div>
             <div className='portfolio-pic'>
                 <div className='portcard'>
                     <img src={portpic1} className="portpic" alt=''/>
@@ -38,7 +38,9 @@ const PortfolioComponent = () => {
                     <img src={portpic7} className="portpic" alt=''/>
                     <img src={portpic8} className="portpic " alt=''/>
                 </div>
-                
+            </div>
+            <div className='view'>
+                <button className='learnmore'>Learn more</button>
             </div>
             </div>
         </div>

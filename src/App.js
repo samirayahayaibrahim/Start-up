@@ -2,7 +2,6 @@ import './App.css';
 import Home from './Components/Home';
 import Navigation from './Components/Navigation';
 import Portfolio from './Components/Portfolio';
-import Hamburger from "./Components/Hamburger";
 import Footer from "./Components/Footer";
 import Contact from "./Components/contact";
 import Service from "./Components/Service";

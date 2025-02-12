@@ -2,7 +2,7 @@
     padding:20px 20px 20px 20px;
 }
 .port{
-    padding:20px 40px 20px 40px;
+    padding:20px 0px 20px 0px;
     background-color: white;
 }
 h3{
@@ -20,34 +20,94 @@ h3{
     font-size: 16px;
 }
 .portcard{
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
+    display: grid;
     gap: 10px; 
+    justify-items: center;
+    margin-left: 40px;
 }
 .portfolio-pic{
-        display: flex;
-        flex-direction: column;
+        display: grid;
+        justify-items: center;
+        width: 70%;
 }
-
-
-@media screen and (min-width:600px){
-.portfolio-pic{
-    display: flex; 
-    padding-left: 95px;      
+.view{
+    align-self: center;
+    margin-left: 120px;
 }
 
 .portpic{
-    width: 85%;
+    width: 100%;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+@media screen and (min-width:400px){
+.view{
+    margin-left: 150px;
+}
+}
+
+@media screen and (min-width:650px){
+    .portfolio-pic{
+        display: grid; 
+        grid-template-columns: repeat(2, 1fr);    
+    }
+    
+.portpic{
+    width: 100%;
+    height: 220px;
 }
 
 .portcard{
-    display: flex;
-    flex-direction: row;
-    width:50%;
+    display: grid;
+    width:90%;
+    gap: 20px;
+    align-content: center;
+    margin-left: 150px;
+}
+.view{
+    margin-left: 320px;
+}
+
+.mybtn{
+    justify-content: center;
+    overflow-x: hidden;
+}
+}
+
+@media screen and (min-width:1000px){
+.portfolio-pic{
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr);    
+}
+
+.portpic{
+    width: 100%;
+    height: 270px;
+    margin-left: 200px;
+}
+
+.portcard{
+    display: grid;
+    width:90%;
 }
 
 .portfolio-description{
     font-size: 20px;
+}
+
+.view{
+    align-self: center;
+    margin-left: 470px;
+}
+}
+@media screen and (min-width:1300px){
+    
+.portpic{
+    width: 100%;
+    height: 270px;
+    margin-left: 300px;
+}
+.view{
+    margin-left: 680px;
 }
 }

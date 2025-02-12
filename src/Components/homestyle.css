@@ -67,11 +67,9 @@
     margin-bottom: 50px;
 }
 .media-pic{
-    padding-left: 20px;
-    padding-right: 0px;
     justify-content: center;
-    height: 40px;
-    margin-left: 50px;
+    height: 35px;
+    margin-left: 65px;
 
 }
 .learn{
@@ -215,6 +213,13 @@ margin-top: 50px;
     overflow-x: hidden;
 }
 
+
+@media screen and (min-width:400px){
+    .media-pic{
+        padding-left: 70px;
+    }
+}
+
 @media screen and (min-width:500px){
 .links{
     display: flex;
@@ -248,7 +253,15 @@ li{
     flex-direction: row;
     gap: 20px;
 }
+
+    .cardss{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 5px;
+    }
+    
 }
+
 @media screen and (min-width:800px){
     .burgers{
         display: block;
@@ -270,9 +283,6 @@ li{
     margin-top: 20px;
 }
 
-}
-
-@media screen and (min-width:800px){
     .welcome{
         padding: 20px 50px 50px 50px;
     }
@@ -381,15 +391,6 @@ li{
     }
 
 }
-@media screen and (min-width:500px){
-
-    .cardss{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr); 
-        gap: 5px;
-    }
-    
-}
 @media screen and (min-width:1000px) {
     .group{
         padding-left: 90px;
@@ -430,6 +431,14 @@ li{
     }
     .mybtn{
         justify-content: center;
+}
+
+.media-pic{
+    justify-content: center;
+    height: 30px;
+    margin-left: 50px;
+    margin-left: -20px;
+
 }
 
 }

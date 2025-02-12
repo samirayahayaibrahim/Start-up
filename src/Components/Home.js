@@ -44,11 +44,13 @@ const HomeComponent = () => {
                 <p className='partner-description'>{partnerDescription}</p>
             </div>
             <div className='media'>
+                <div className='mediaContainer' id='mediaContainer'>
                 <img src={google} className='media-pic' alt=''/>
                 <img src={microsoft} className='media-pic' alt=''/>
                 <img src={airbnb} className='media-pic' alt=''/>
                 <img src={facebook} className='media-pic' alt=''/>
                 <img src={spotify} className='media-pic' alt=''/>
+                </div>
                 <div className='mybtn'><button className='learn'>Learn More</button></div>
                 
             </div>
