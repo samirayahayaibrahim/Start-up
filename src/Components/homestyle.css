@@ -3,21 +3,22 @@
     color: white;
 }
 .subTitle{
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 5px;
     font-family: "Work Sans";
     font-weight: 500;
-    font-size: 16px;
-    font-family: 'Work Sans';
+    font-size: 15px;
+    margin-top: 20px;
 }
 .nav{
     display: flex;
+    height: 30px;
 }
 .hamburger{
     margin-left: auto;
 }
 .navicon{
-    height: 40px;
+    height: 30px;
 }
 .group1{
     padding-top: 40px;
@@ -41,6 +42,7 @@
     border-style: none;
     margin-top: 20px;
     font-family: 'Work Sans';
+    margin-left: 30px;
 
 }
 .partners{
@@ -58,16 +60,20 @@
     font-family: 'Work Sans';
 }
 .media{
-    background-color: white;
-    padding: 20px 50px 20px 50px;
+    background-color:white;
+    padding: 20px 20px 50px 20px;
     justify-items: center;
+    height: 350px;
+    margin-bottom: 50px;
 }
 .media-pic{
-    padding-left: 20px;
-    padding-right: 50px;
+    justify-content: center;
+    height: 35px;
+    margin-left: 65px;
+
 }
-.learn,.learnmore{
-    background-color:black;
+.learn{
+    background-color:#212529;
     padding: 5px 20px 5px 20px;
     font-size: 16px;
     border-radius: 5px;
@@ -75,12 +81,10 @@
     border-style: none;
     color: white;
     margin-top: 20px;
-    margin-left: 50px;
-    margin-bottom: 20px;
-    font-family: 'Work Sans';
+    margin-left: 20px;
 }
 .learnmore{
-    background-color:black;
+    background-color:#212529;
     padding: 5px 20px 5px 20px;
     font-size: 16px;
     border-radius: 5px;
@@ -88,7 +92,6 @@
     border-style: none;
     color: white;
     margin-top: 20px;
-    margin-left: 50px;
     margin-bottom: 20px;
     
 }
@@ -96,6 +99,7 @@
     padding: 20px;
     background-color: white;
     align-content: center;
+    margin-top: -50px;
 }
 .group2-pic{
     width: 100%;
@@ -111,7 +115,7 @@
     font-family: 'Work Sans';
 }
 .more{
-    background-color:black;
+    background-color:#212529;
     padding: 5px 20px 5px 20px;
     font-size: 16px;
     border-radius: 5px;
@@ -119,6 +123,7 @@
     border-style: none;
     color: white;
     margin-top: 20px;
+    margin-left: 30px;
     
 }
 .working-pic{
@@ -153,15 +158,18 @@ h4{
         padding: 10px;
         text-align: center;
     }
-.cards{
+.cardss{
         display: grid;
         grid-template-columns: repeat(1, 1fr); 
-        gap: 10px; }
-    
+        gap: 10px; 
+        justify-content: center;
+        
+    }
+
 .person{
-    border: 1px solid black;
+    border: 1px solid #212529;
     margin-top: 20px;
-    padding: 25px;
+    padding: 15px;
     border-radius: 5px;
     box-shadow: -2px 0 5px ;
 }
@@ -182,9 +190,13 @@ h4{
     align-items: center;
     padding: 20px;
     color: white;
+margin-top: 50px;
 }
 .social-icon{
     padding-right: 10px;
+}
+.social{
+    margin-left:25px;
 }
 .links{
     margin-left: auto;
@@ -196,8 +208,81 @@ h4{
 .copyright{
     font-family: 'Work Sans';
 }
+.mybtn{
+    justify-content: center;
+    overflow-x: hidden;
+}
 
-@media screen and (min-width:550px){
+
+@media screen and (min-width:400px){
+    .media-pic{
+        padding-left: 70px;
+    }
+}
+
+@media screen and (min-width:500px){
+.links{
+    display: flex;
+    list-style: none;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: auto;
+    list-style: none;
+    margin-right: 30px;
+    margin-top: -20px;
+}
+
+.burgers{
+    display: flex;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: auto;
+    list-style: none;
+    flex-direction: row;
+}
+.links .burgers li a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    list-style: none;
+    padding-left: 15px;
+}
+li{
+    flex-direction: row;
+    gap: 20px;
+}
+
+    .cardss{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 5px;
+    }
+    
+}
+
+@media screen and (min-width:800px){
+    .burgers{
+        display: block;
+    }
+    .cardss{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 10px;
+    }
+    
+.learn{
+    background-color:#212529;
+    padding: 5px 20px 5px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border-color:black;
+    border-style: none;
+    color: white;
+    margin-top: 20px;
+}
+
     .welcome{
         padding: 20px 50px 50px 50px;
     }
@@ -209,7 +294,7 @@ h4{
         padding-top: 15px;
     }
     .hamburger{
-        display: none;
+        display: block;
     }
     .links {
         display: block;
@@ -217,16 +302,29 @@ h4{
         margin-top: 30px;
         font-size: 20px;
         text-decoration: none;
+        margin-right: -60px;
     }
-    ul {
+    .links .burgers li a{
+        font-size:18px;
+        list-style: none;
+    }
+    .learn{
+        margin-top: 70px;
+        margin-bottom: 20px;
+    }
+    .burgers{
         list-style: none;
         display: flex;
+        flex-direction: row;
         gap: 30px;
         color: white;
+        font-family: 'Work Sans';
+        font-size: 20px;
     }
     a{
         color: white;
         text-decoration: none;
+        font-size: 20px;
     }
     
     .navlink{
@@ -260,9 +358,6 @@ h4{
         font-size: 24px;
         padding-bottom: 5px;
     }
-    .learn{
-        transform: translateX(30px);
-    }
     .group2{
         display: flex;
         flex-direction: row;
@@ -288,23 +383,19 @@ h4{
         padding: 10px;
         text-align: center;
     }
-    .cards{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr); 
-        gap: 10px;
-    }
-    
     .person{
-        margin-left: 40px;
+        margin-left: 20px;
     }
+    .mybtn{
+        justify-content: center;
+    }
+
 }
-@media screen and (min-width:900px) {
-    .learn{
-        transform: translateX(550px);
-    }
+@media screen and (min-width:1000px) {
     .group{
         padding-left: 90px;
         padding-right: 90px;
+        margin-top:-195px;
     }
     .group2-header{
         padding-top: 200px;
@@ -321,10 +412,15 @@ h4{
         padding: 10px;
         text-align: center;
     }
-    .cards{
+    .cardss{
         display: grid;
         grid-template-columns: repeat(4, 1fr); 
-        gap: 10px;
+        gap: 5px;
+        overflow-x: hidden;
+        
+    }
+    .person{
+    width: 210px;
     }
     .paragraph{
         padding: 50px;
@@ -333,6 +429,16 @@ h4{
         display: flex;
         gap: 550px;
     }
+    .mybtn{
+        justify-content: center;
 }
 
+.media-pic{
+    justify-content: center;
+    height: 30px;
+    margin-left: 50px;
+    margin-left: -20px;
 
+}
+
+}

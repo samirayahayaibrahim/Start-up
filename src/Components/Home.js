@@ -1,4 +1,4 @@
-import App from './App.css';
+import App from '../App.css';
 import homestyle from './homestyle.css';
 import group from './assets/group.png';
 import google from './assets/google.jpg';
@@ -14,7 +14,7 @@ import person3 from './assets/person 3.jpg';
 import person4 from './assets/person 4.jpg';
 import { motion } from 'framer-motion';
 
-const homeComponent = () => {
+const HomeComponent = () => {
     const welcomeHeader = "Lorem ipsum, dolor sit amet consectetur";
     const welcomeDescription = "Lorem ipsum, dolor sit  amet consectetur adipisicing elit. Suscipit nemo hic quos, ab, dolor aperiam nobis cum est eos error ipsum, voluptate culpa nesciunt delectus iste?";
     const partnerDescription = "Lorem ipsum, dolor sit amet consectetur adipisicing elit.";
@@ -44,12 +44,15 @@ const homeComponent = () => {
                 <p className='partner-description'>{partnerDescription}</p>
             </div>
             <div className='media'>
+                <div className='mediaContainer' id='mediaContainer'>
                 <img src={google} className='media-pic' alt=''/>
                 <img src={microsoft} className='media-pic' alt=''/>
                 <img src={airbnb} className='media-pic' alt=''/>
                 <img src={facebook} className='media-pic' alt=''/>
                 <img src={spotify} className='media-pic' alt=''/>
-                <button className='learn'>Learn More</button>
+                </div>
+                <div className='mybtn'><button className='learn'>Learn More</button></div>
+                
             </div>
             <div className='group'>
                 <div className='group2'>
@@ -76,7 +79,7 @@ const homeComponent = () => {
                 Lorem ipsum, dolor sit amet consectetur
                 adipisicing elit.
                 </p>
-                <div className='cards'>
+                <div className='cardss'>
                     <motion.div className='person'
                     initial={{ scale: 0 }}
                     animate={{ scale: 1 }}
@@ -113,5 +116,5 @@ const homeComponent = () => {
     );
 }
 
-export default homeComponent;
+export default HomeComponent;
 

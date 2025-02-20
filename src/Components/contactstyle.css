@@ -1,0 +1,106 @@
+.contact{
+    background-color: white;
+    justify-items: center;
+}
+.form{
+    display: flex;
+    flex-direction: column-reverse;
+    padding-bottom: 50px;
+    margin-left: 20px;
+}
+.contactdescription{
+    text-align: center;
+}
+h2{
+    margin-top: 30px;
+}
+.fill{
+    padding: 50px 40px 50px 0px;
+    margin-top: 10px;
+}
+p{
+    margin-top: 20px;
+}
+.map{
+    margin-top: 90px;
+    border-radius: 20px;
+    width:90%;
+    margin-left: 15px;
+}
+p{
+    margin-left: 30px;
+}
+.text{
+    width: 250px;
+    height: 30px;
+    background-color: rgb(231, 230, 230);
+    border-color: rgb(203, 200, 200);
+    margin-left: 30px;
+}
+.message{
+    width: 250px;
+    height: 55px;
+    background-color: rgb(231, 230, 230);
+    border-color: rgb(203, 200, 200);
+    margin-left: 30px;
+}
+.submit{
+    width: 250px;
+    height: 32px;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+@media screen and (min-width:500px) {
+    
+.map{
+    width: 120%;
+    margin-left: -30px;
+}
+.text{
+    width: 270px;
+}
+.message{
+    width: 270px;
+}
+.submit{
+    width: 270px;
+}
+}
+
+@media screen and (min-width:900px) {
+
+.form{
+    flex-direction: row;
+    padding: 0px 0px 40px 0px;
+    margin-left: -200px;
+}
+.fill{
+    padding: 50px 20px 0px 60px;
+}
+.map{
+    width: 130%;
+    margin-left: 30px;
+}
+.text{
+    width: 350px;
+    height: 30px;
+    border-radius: 5px;
+}
+.message{
+    width: 350px;
+    height: 55px;
+    background-color: rgb(231, 230, 230);
+    border-color: rgb(203, 200, 200);
+    border-radius: 5px;
+}
+.submit{
+    width: 350px;
+    height: 32px;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+}

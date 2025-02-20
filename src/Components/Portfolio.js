@@ -1,5 +1,4 @@
-import Home from './home';
-import App from './App.css';
+import App from '../App.css';
 import portfoliostyle from './portfoliostyle.css';
 import Navigation from './Navigation';
 import portpic1 from './assets/port-pic 1.jpg';
@@ -10,7 +9,7 @@ import portpic5 from './assets/port-pic 5.jpg';
 import portpic6 from './assets/port-pic 6.jpg';
 import portpic7 from './assets/port-pic 7.jpg';
 import portpic8 from './assets/port-pic 8.png';
-const portfolioComponent = () => {
+const PortfolioComponent = () => {
     return ( 
         <div className='portifoliopage'>
         <div className='nav'>
@@ -21,7 +20,7 @@ const portfolioComponent = () => {
             <p className='subheader'>Portfolio</p>
             <p className='portfolio-description'>Lorem ipsum, dolor sit amet consectetur
             adipisicing elit.</p>
-            </div>
+        </div>
             <div className='portfolio-pic'>
                 <div className='portcard'>
                     <img src={portpic1} className="portpic" alt=''/>
@@ -38,12 +37,14 @@ const portfolioComponent = () => {
                 <div className='portcard'>
                     <img src={portpic7} className="portpic" alt=''/>
                     <img src={portpic8} className="portpic " alt=''/>
-                    </div>
-            
+                </div>
+            </div>
+            <div className='view'>
+                <button className='learnmore'>Learn more</button>
             </div>
             </div>
         </div>
     );
 }
 
-export default portfolioComponent;
+export default PortfolioComponent;
